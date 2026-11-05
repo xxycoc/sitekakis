@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en-SG">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5efe3">
+  <meta name="description" content="Find public lunch spots near Singapore construction projects. A kopi, a conversation, a new kaki.">
+  <title>Kopi with your kakis · Site Kakis</title>
+  <style>
+    :root { color-scheme: light dark; --paper:#f5efe3; --card:#fffdf7; --ink:#243b36; --muted:#5b6961; --line:#d9d8c9; --teal:#22675b; --soft:#e7eee4; --clay:#a3472e; --clay-soft:#f4e3d5; --shadow:0 5px 18px #283e3510; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    button,select,input { font:inherit; }
+    button,a,select,input { -webkit-tap-highlight-color:transparent; }
+    button,select { cursor:pointer; }
+    a { color:var(--teal); text-underline-offset:3px; overflow-wrap:anywhere; }
+    button,a,select,input,summary { touch-action:manipulation; }
+    :focus-visible { outline:3px solid var(--clay); outline-offset:4px; }
+    .wrap { width:min(100% - 36px,700px); margin:auto; }
+    .skip { position:absolute; top:-100px; padding:12px; background:var(--card); z-index:10; }
+    .skip:focus { top:8px; }
+    header { padding:25px 0 0; }
+    .brand { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-bottom:22px; border-bottom:1px solid var(--line); }
+    .wordmark { display:flex; gap:10px; align-items:center; font-size:16px; font-weight:800; letter-spacing:.04em; }
+    .brand svg { width:32px; height:32px; color:var(--clay); }
+    .eyebrow { margin:0; font-size:11px; font-weight:750; letter-spacing:.13em; text-transform:uppercase; }
+    .brand .eyebrow { text-align:right; max-width:115px; color:var(--muted); }
+    .hero { padding:29px 0 23px; }
+    .hero .eyebrow { color:var(--clay); }
+    h1 { font-family:Georgia,"Times New Roman",serif; font-size:clamp(36px,9.5vw,52px); font-weight:500; line-height:1.08; letter-spacing:-.045em; margin:13px 0 17px; max-width:560px; }
+    h1 em { color:var(--clay); font-style:normal; }
+    .hero p:last-child { max-width:470px; margin:0; color:var(--muted); }
+    .lunch-note { background:var(--soft); border:1px solid var(--line); border-radius:12px; padding:14px 16px; margin:0 0 25px; }
+    .lunch-note strong { display:block; font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--teal); margin-bottom:4px; }
+    .lunch-note p { margin:0; font-size:14px; }
+    label { display:block; font-size:14px; font-weight:700; margin-bottom:8px; }
+    select { width:100%; min-height:52px; border:1px solid var(--teal); border-radius:10px; background:var(--card); color:var(--ink); padding:12px 16px; }
+    .results-top { display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin:22px 0 12px; }
+    .results-top h2 { margin:0; font-size:16px; }
+    .results-top span { font-size:12px; color:var(--muted); text-align:right; }
+    #location-status { font-size:14px; margin:10px 0 0; color:var(--muted); }
+    #location-status:empty { display:none; }
+    .list { display:grid; gap:16px; }
+    .site { min-width:0; border:1px solid var(--line); border-top:3px solid var(--teal); border-radius:14px; padding:20px; background:var(--card); box-shadow:var(--shadow); }
+    .site-meta { display:flex; flex-wrap:wrap; gap:6px; align-items:center; color:var(--muted); font-size:12px; margin-bottom:8px; }
+    .kind { font-weight:750; text-transform:uppercase; letter-spacing:.07em; color:var(--teal); }
+    .site h3 { font-size:21px; line-height:1.25; letter-spacing:-.025em; margin:0 0 12px; overflow-wrap:anywhere; }
+    .crew { display:inline-block; font-size:12px; font-weight:700; color:var(--clay); background:var(--clay-soft); padding:5px 10px; border-radius:6px; margin-bottom:12px; }
+    .crew-detail { margin:0 0 14px; font-size:12px; color:var(--muted); }
+    summary { cursor:pointer; min-height:44px; display:list-item; padding:10px 0; }
+    .crew-detail summary { min-height:0; padding:0; }
+    .crew-detail p { margin:7px 0 0; }
+    .meeting { border-top:1px solid var(--line); padding-top:13px; }
+    .meeting h4 { font-size:12px; font-weight:750; text-transform:uppercase; letter-spacing:.06em; margin:0 0 7px; color:var(--muted); }
+    .spots { padding:0; margin:0; list-style:none; display:grid; gap:7px; }
+    .spots li { display:flex; justify-content:space-between; gap:12px; font-size:14px; }
+    .spots .minutes { white-space:nowrap; font-size:12px; color:var(--muted); padding-top:2px; }
+    .approx { font-size:11px; color:var(--muted); margin:8px 0 15px; }
+    .empty-spots { font-size:14px; color:var(--muted); margin:0 0 15px; }
+    .actions { display:grid; grid-template-columns:1fr auto; gap:9px; }
+    .button { border:1px solid var(--teal); border-radius:9px; min-height:46px; padding:11px 15px; font-size:14px; font-weight:700; text-align:center; text-decoration:none; background:transparent; color:var(--teal); display:inline-flex; align-items:center; justify-content:center; }
+    .primary { background:var(--teal); color:var(--card); }
+    .button:disabled { opacity:.55; cursor:default; }
+    .tips-button { grid-column:1/-1; border-color:var(--line); color:var(--ink); }
+    .site-foot { margin:14px 0 0; font-size:11px; color:var(--muted); }
+    .site-foot a { color:inherit; display:inline-block; min-height:44px; padding:13px 0; }
+    .visit-note { font-size:12px; color:var(--teal); margin:12px 0 0; }
+    .visit-note:empty { display:none; }
+    .empty { padding:24px; border:1px dashed var(--line); border-radius:12px; color:var(--muted); }
+    footer { padding:30px 0 140px; color:var(--muted); font-size:13px; }
+    footer p { margin:12px 0; }
+    footer summary { color:var(--ink); font-weight:700; }
+    .source { border-top:1px solid var(--line); padding:12px 0; }
+    .source a { font-weight:700; display:inline-block; padding:8px 0; }
+    .source p { margin:4px 0; font-size:12px; overflow-wrap:anywhere; }
+    .safety-bar { position:fixed; bottom:0; left:0; right:0; z-index:2; padding:12px 18px max(12px,env(safe-area-inset-bottom)); background:var(--ink); color:var(--paper); border-top:1px solid var(--line); }
+    .safety-bar p { margin:0 auto; max-width:664px; font-size:12px; line-height:1.5; }
+    dialog { width:min(100% - 32px,460px); max-height:85dvh; overflow:auto; border:1px solid var(--line); border-radius:16px; padding:24px; color:var(--ink); background:var(--card); box-shadow:0 20px 70px #0004; }
+    dialog::backdrop { background:#182923aa; }
+    dialog h2 { font:500 30px/1.15 Georgia,serif; margin:0 0 14px; }
+    dialog p,dialog li { font-size:15px; }
+    dialog ul { padding-left:20px; }
+    dialog li { margin-bottom:10px; }
+    dialog .buttons { display:flex; gap:10px; flex-wrap:wrap; margin-top:20px; }
+    dialog .buttons .button { flex:1; }
+    dialog input { border:1px solid var(--teal); border-radius:8px; width:100%; padding:12px; color:var(--ink); background:var(--paper); min-height:48px; }
+    dialog .privacy { font-size:12px; color:var(--muted); }
+    #save-status { color:var(--clay); font-size:14px; }
+    @media (min-width:650px) { .hero { padding-top:38px; } .site { padding:24px; } .actions { grid-template-columns:1fr 1.5fr auto; } .tips-button { grid-column:auto; grid-row:1; grid-column:2; } }
+    @media (prefers-color-scheme:dark) { :root { --paper:#182622; --card:#21332d; --ink:#f0eadc; --muted:#bac7ba; --line:#43564a; --teal:#9cd2bf; --soft:#243c32; --clay:#f1b08e; --clay-soft:#49382e; --shadow:none; } .primary { color:#182622; } .safety-bar { background:#101c18; color:#f0eadc; } }
+    @media (prefers-reduced-motion:no-preference) { .button { transition:background-color .15s,transform .15s; } .button:active { transform:translateY(1px); } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#area">Skip to places</a>
+  <header class="wrap">
+    <div class="brand">
+      <div class="wordmark"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M5 12h19v8a7 7 0 0 1-7 7h-5a7 7 0 0 1-7-7v-8Zm19 2h2a4 4 0 0 1 0 8h-3M3 30h24M11 8V3m7 5V1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>SITE KAKIS</div>
+      <p class="eyebrow">Good company,<br>close to home</p>
+    </div>
+    <div class="hero"><p class="eyebrow">Singapore · Lunch break connections</p><h1>Kopi with<br><em>your kakis.</em></h1><p>The people building our neighbourhoods are neighbours too. Find a public spot nearby, say hello, and share a little of your lunch break.</p></div>
+    <aside class="lunch-note"><strong>A good time to say hello</strong><p>Meet during lunch (12-1pm) near the site. Never enter a site.</p></aside>
+  </header>
+  <main class="wrap" id="main">
+    <label for="area">Which neighbourhood?</label>
+    <select id="area" disabled><option>Loading neighbourhoods…</option></select>
+    <p id="location-status" role="status" aria-live="polite"></p>
+    <div class="results-top"><h2 id="result-count" role="status">Finding places…</h2><span>Public spots, friendly hellos</span></div>
+    <div id="sites" class="list" aria-busy="true"></div>
+    <noscript><p class="empty">Turn on JavaScript to load the neighbourhood list. Meet during lunch (12-1pm) near the site. Never enter a site.</p></noscript>
+  </main>
+  <footer class="wrap">
+    <p><strong>Good company starts with asking.</strong> Workers may have other plans. A listed project does not mean workers will be at these spots or available to chat.</p>
+    <p>Crew bands are rough project-wide estimates: small &lt;30, medium 30–150, large 150–500, mega 500+. They are not lunch attendance counts. HDB clusters and town labels are approximate.</p>
+    <p id="updated">Last updated: loading…</p>
+    <details><summary>Sources &amp; attribution</summary><div id="sources"></div></details>
+    <p>Your “I went” notes stay only on this phone for now, in this browser. Nothing is submitted. Location is used only to sort this list and is not saved.</p>
+    <button type="button" id="clear-visits" class="button">Clear my visit notes</button>
+    <p id="storage-status" role="status" aria-live="polite"></p>
+    <p>Site Kakis · A little kopi. A new kaki.</p>
+  </footer>
+  <aside class="safety-bar" aria-label="Safety reminder"><p>Meet during lunch (12-1pm) near the site. Never enter a site.</p></aside>
+  <dialog id="tips" aria-labelledby="tips-title">
+    <h2 id="tips-title">Kopi with your kakis</h2>
+    <p>A simple “Hi, mind if I join you?” is a good start.</p>
+    <ul><li><strong>Ask first.</strong> Offer company or a drink without expecting a yes.</li><li><strong>Keep it short.</strong> Respect breaks, privacy and anyone who wants quiet time.</li><li><strong>Keep it simple.</strong> Ask what they like: kopi, teh or 100 Plus. Sharing a meal is welcome if they are keen.</li><li><strong>Make a friend.</strong> Listen, chat, and ask before taking any photos.</li></ul>
+    <p class="lunch-note">Meet during lunch (12-1pm) near the site. Never enter a site.</p>
+    <form method="dialog"><button class="button primary" autofocus>Got it, thanks!</button></form>
+  </dialog>
+  <dialog id="visit" aria-labelledby="visit-title">
+    <h2 id="visit-title">How was lunch?</h2>
+    <p id="visit-place"></p>
+    <form id="visit-form">
+      <label for="workers">How many workers did you see?</label>
+      <input id="workers" type="number" min="0" step="1" inputmode="numeric" required aria-describedby="visit-privacy" autofocus>
+      <p class="privacy" id="visit-privacy">Only on this phone for now. This replaces your previous note for this site. No names, photos or contact details.</p>
+      <p class="privacy">Meet during lunch (12-1pm) near the site. Never enter a site.</p>
+      <p id="save-status" role="status"></p>
+      <div class="buttons"><button type="button" id="cancel-visit" class="button">Cancel</button><button type="submit" class="button primary">Save on this phone</button></div>
+    </form>
+  </dialog>
+  <script>
+    'use strict';
+    const $ = id => document.getElementById(id);
+    const STORAGE_KEY = 'site-kakis-visits-v1';
+    const kinds = {hdb:'HDB',condo:'Condo',rail:'Rail',infra:'Infrastructure',commercial:'Commercial'};
+    const bands = {small:'Small · <30',medium:'Medium · 30–150',large:'Large · 150–500',mega:'Mega · 500+'};
+    let data, position = null, activeSite = null, geoRequest = 0;
+    let visits = Object.create(null);
+    try {
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      if (stored && typeof stored === 'object' && !Array.isArray(stored)) {
+        for (const [id, value] of Object.entries(stored)) {
+          if (value && Number.isSafeInteger(value.count) && value.count >= 0 && /^\d{4}-\d{2}-\d{2}$/.test(value.date)) visits[id] = value;
+        }
+      }
+    } catch { $('storage-status').textContent = 'Saved notes could not be read. You can still browse places.'; }
+
+    function el(tag, className, text) {
+      const element = document.createElement(tag);
+      if (className) element.className = className;
+      if (text !== undefined) element.textContent = text;
+      return element;
+    }
+    function distance(lat, lng, otherLat, otherLng) {
+      const rad = Math.PI / 180;
+      const a = Math.sin((otherLat-lat)*rad/2)**2 + Math.cos(lat*rad)*Math.cos(otherLat*rad)*Math.sin((otherLng-lng)*rad/2)**2;
+      return 6371*2*Math.asin(Math.min(1,Math.sqrt(a)));
+    }
+    function dateLabel(value) {
+      const parsed = new Date(value + 'T12:00:00+08:00');
+      return Number.isNaN(parsed.getTime()) ? value : parsed.toLocaleDateString('en-SG',{day:'numeric',month:'short',year:'numeric',timeZone:'Asia/Singapore'});
+    }
+    function safeUrl(value) {
+      try { const url = new URL(value); return url.protocol === 'https:' ? url.href : null; } catch { return null; }
+    }
+    function externalLink(text, href, className) {
+      const link = el('a', className, text);
+      link.href = href; link.target = '_blank'; link.rel = 'noopener noreferrer';
+      return link;
+    }
+    function openVisit(site) {
+      activeSite = site;
+      $('visit-place').textContent = site.name;
+      $('workers').value = visits[site.id]?.count ?? '';
+      $('save-status').textContent = '';
+      $('visit').showModal();
+    }
+    function makeCard(site) {
+      const card = el('article','site');
+      const meta = el('div','site-meta');
+      meta.append(el('span','kind',kinds[site.kind]),el('span','', '· ' + site.area));
+      if (position && $('area').value === '__near') meta.append(el('span','', '· ' + distance(position.latitude,position.longitude,site.lat,site.lng).toFixed(1) + ' km away'));
+      card.append(meta, el('h3','',site.name),el('span','crew',bands[site.crew] + ' · est.'));
+      const details = el('details','crew-detail');
+      details.append(el('summary','','About this estimate'),el('p','',site.crew_note));
+      if (site.est_completion) details.append(el('p','','Estimated completion: ' + site.est_completion));
+      card.append(details);
+      const meeting = el('section','meeting');
+      meeting.append(el('h4','','Meet in a public place'));
+      if (site.meet.length) {
+        const list = el('ul','spots');
+        site.meet.forEach(spot => {
+          const row = el('li');
+          row.append(el('span','',spot.name),el('span','minutes','~' + spot.walk_min + ' min'));
+          list.append(row);
+        });
+        meeting.append(list,el('p','approx','Approx. walk from the site, based on straight-line distance. Check the route and opening hours.'));
+      } else meeting.append(el('p','empty-spots','No public meeting spot mapped within 1 km yet. Choose another site for a lunch meetup.'));
+      card.append(meeting);
+      const actions = el('div','actions');
+      if (site.meet.length) {
+        const spot = site.meet[0];
+        const url = new URL('https://www.google.com/maps/dir/');
+        url.search = new URLSearchParams({api:'1',destination:spot.lat+','+spot.lng,travelmode:'walking'});
+        const directions = externalLink('Directions ↗',url.href,'button primary');
+        directions.setAttribute('aria-label','Directions to ' + spot.name + ' (opens Google Maps)');
+        actions.append(directions);
+      } else { const unavailable = el('button','button primary','No directions yet'); unavailable.disabled = true; actions.append(unavailable); }
+      const went = el('button','button','I went'); went.type='button'; went.addEventListener('click',()=>openVisit(site));
+      const tips = el('button','button tips-button','Kopi with your kakis'); tips.type='button'; tips.addEventListener('click',()=>$('tips').showModal());
+      actions.append(went,tips); card.append(actions);
+      const saved = visits[site.id];
+      card.append(el('p','visit-note',saved ? 'Your note: saw ' + saved.count + ' · ' + dateLabel(saved.date) + '. Only on this phone.' : ''));
+      const foot = el('p','site-foot');
+      const source = safeUrl(site.source);
+      if(source) foot.append(externalLink('Source checked ' + dateLabel(site.last_checked) + ' ↗',source));
+      card.append(foot);
+      return card;
+    }
+    function render() {
+      if (!data) return;
+      const area = $('area').value;
+      let sites = data.sites.filter(site => area === '__all' || area === '__near' || site.area === area);
+      if (area === '__near' && position) sites.sort((a,b)=>distance(position.latitude,position.longitude,a.lat,a.lng)-distance(position.latitude,position.longitude,b.lat,b.lng));
+      // Prefer actionable lunch spots initially; preserve distance ordering for Near me.
+      else sites = sites.slice().sort((a,b)=>Number(!!b.meet.length)-Number(!!a.meet.length) || a.name.localeCompare(b.name));
+      $('result-count').textContent = sites.length + (sites.length === 1 ? ' site' : ' sites') + (area === '__near' && position ? ' · nearest first' : ' nearby');
+      const fragment = document.createDocumentFragment();
+      sites.forEach(site=>fragment.append(makeCard(site)));
+      if (!sites.length) fragment.append(el('p','empty','No sites in this area yet. Try another neighbourhood.'));
+      $('sites').replaceChildren(fragment);
+      $('clear-visits').disabled = !Object.keys(visits).length;
+    }
+    $('area').addEventListener('change',()=>{
+      const ticket = ++geoRequest;
+      if ($('area').value !== '__near') { $('location-status').textContent=''; render(); return; }
+      if (position) { $('location-status').textContent='Sorted using your location on this page. Location is not saved.'; render(); return; }
+      const failed = message => { if (ticket !== geoRequest) return; $('area').value='__all'; $('location-status').textContent=message + ' Choose a neighbourhood instead.'; render(); };
+      if (!window.isSecureContext) { failed('Near me needs HTTPS or localhost.'); return; }
+      if (!navigator.geolocation) { failed('Location is not available in this browser.'); return; }
+      $('location-status').textContent='Allow location in your browser to find nearby places. Your location stays on this page.';
+      navigator.geolocation.getCurrentPosition(result=>{
+        if(ticket !== geoRequest) return;
+        position = {latitude:result.coords.latitude,longitude:result.coords.longitude};
+        $('location-status').textContent='Nearest sites first. Distances are straight-line estimates. Location is not saved.';
+        render();
+      },error=>failed(error.code===1 ? 'Location permission was not granted.' : 'Could not get your location.'),{enableHighAccuracy:false,timeout:10000,maximumAge:60000});
+    });
+    $('cancel-visit').addEventListener('click',()=>$('visit').close());
+    $('visit-form').addEventListener('submit',event=>{
+      event.preventDefault();
+      const count = $('workers').valueAsNumber;
+      if (!activeSite || !Number.isSafeInteger(count) || count < 0) { $('save-status').textContent='Enter a whole number, zero or more.'; return; }
+      const now = new Date();
+      const sgDate = new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Singapore',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
+      const updated = {...visits,[activeSite.id]:{count,date:sgDate}};
+      try { localStorage.setItem(STORAGE_KEY,JSON.stringify(updated)); }
+      catch { $('save-status').textContent='This browser could not save the note. Check storage permissions or private browsing settings.'; return; }
+      visits = updated; $('visit').close(); render();
+      $('storage-status').textContent='Visit note saved only on this phone. Nothing was submitted.';
+    });
+    $('clear-visits').addEventListener('click',()=>{
+      try { localStorage.removeItem(STORAGE_KEY); visits=Object.create(null); render(); $('storage-status').textContent='Visit notes cleared from this browser.'; }
+      catch { $('storage-status').textContent='This browser could not clear your notes. Check its storage settings.'; }
+    });
+    function validData(value) {
+      return value && /^\d{4}-\d{2}-\d{2}$/.test(value.generated) && Array.isArray(value.sources) && Array.isArray(value.sites) && value.sites.every(site=>
+        site && typeof site.id==='string' && typeof site.name==='string' && typeof site.area==='string' && kinds[site.kind] && bands[site.crew] &&
+        Number.isFinite(site.lat) && Number.isFinite(site.lng) && Array.isArray(site.meet) && site.meet.every(spot=>typeof spot.name==='string' && Number.isFinite(spot.lat) && Number.isFinite(spot.lng) && Number.isFinite(spot.walk_min)));
+    }
+    async function load() {
+      for (const path of ['../data/sites.json','./sites.json']) {
+        try {
+          const response = await fetch(path,{cache:'no-cache'});
+          if(!response.ok) continue;
+          const candidate = await response.json();
+          if(validData(candidate)) { data=candidate; break; }
+        } catch { /* Try the adjacent-file layout too. */ }
+      }
+      $('sites').setAttribute('aria-busy','false');
+      if(!data) {
+        $('result-count').textContent='Places could not load';
+        $('sites').append(el('p','empty','Please reload when connected. If you are viewing a local copy, serve the sites folder with python -m http.server and open /web/.'));
+        $('area').replaceChildren(new Option('Places unavailable',''));
+        $('updated').textContent='Last updated: unavailable';
+        return;
+      }
+      const areas = new Map();
+      data.sites.forEach(site=>areas.set(site.area,(areas.get(site.area)||0)+1));
+      $('area').replaceChildren(new Option('All neighbourhoods ('+data.sites.length+')','__all'),new Option('Near me · use my location','__near'));
+      [...areas].sort(([a],[b])=>a.localeCompare(b)).forEach(([area,count])=>$('area').add(new Option(area+' ('+count+')',area)));
+      $('area').disabled=false;
+      $('updated').textContent='Last built ' + dateLabel(data.generated) + '. Source check dates appear on each card; these are not field visits.';
+      data.sources.forEach(source=>{
+        const row=el('div','source'), url=safeUrl(source.url);
+        row.append(url ? externalLink(source.name+' ↗',url) : el('strong','',source.name));
+        row.append(el('p','',source.attribution),el('p','',source.licence)); $('sources').append(row);
+      });
+      render();
+    }
+    load();
+  </script>
+</body>
+</html>

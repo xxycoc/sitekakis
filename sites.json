@@ -1,0 +1,5393 @@
+{
+  "generated": "2026-11-05",
+  "sources": [
+    {
+      "name": "HDB Under Construction Buildings",
+      "url": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "licence": "Singapore Open Data Licence v1.0 (https://data.gov.sg/open-data-licence)",
+      "attribution": "Contains information from HDB Under Construction Buildings accessed on 2026-11-05 from Housing & Development Board, made available under the Singapore Open Data Licence version 1.0. Adapted by Site Kakis; no agency endorsement. "
+    },
+    {
+      "name": "HDB Building Under Construction (legacy project layer)",
+      "url": "https://data.gov.sg/datasets/d_930e662ac7e141fe3fd2a6efa5216902/view",
+      "licence": "Singapore Open Data Licence v1.0 (https://data.gov.sg/open-data-licence)",
+      "attribution": "Contains information from HDB Building Under Construction (legacy project layer) accessed on 2026-11-05 from Housing & Development Board, made available under the Singapore Open Data Licence version 1.0. Adapted by Site Kakis; no agency endorsement. Legacy layer considered only for recent, spatially matching projects."
+    },
+    {
+      "name": "Hawker Centres",
+      "url": "https://data.gov.sg/datasets/d_4a086da0a5553be1d89383cd90d07ecd/view",
+      "licence": "Singapore Open Data Licence v1.0 (https://data.gov.sg/open-data-licence)",
+      "attribution": "Contains information from Hawker Centres accessed on 2026-11-05 from National Environment Agency, made available under the Singapore Open Data Licence version 1.0. Adapted by Site Kakis; no agency endorsement. "
+    },
+    {
+      "name": "LTA MRT Station Exit",
+      "url": "https://data.gov.sg/datasets/d_b39d3a0871985372d7e1637193335da5/view",
+      "licence": "Singapore Open Data Licence v1.0 (https://data.gov.sg/open-data-licence)",
+      "attribution": "Contains information from LTA MRT Station Exit accessed on 2026-11-05 from Land Transport Authority, made available under the Singapore Open Data Licence version 1.0. Adapted by Site Kakis; no agency endorsement. "
+    },
+    {
+      "name": "Woh Hup ongoing projects",
+      "url": "https://www.wohhup.com/projects/",
+      "licence": "Project facts cited; no media reproduced. No open licence asserted.",
+      "attribution": "Woh Hup, Ongoing tab, reviewed 5 November 2026. 24 entries: 20 included, one duplicate work area consolidated, two confidential locations and Semakau excluded."
+    },
+    {
+      "name": "LTA Cross Island Line",
+      "url": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/cross_island_line.html",
+      "licence": "Public project facts cited; no open licence asserted.",
+      "attribution": "Land Transport Authority: Cross Island Line project and completion phases."
+    },
+    {
+      "name": "LTA Jurong Region Line",
+      "url": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/jurong_region_line.html/1000",
+      "licence": "Public project facts cited; no open licence asserted.",
+      "attribution": "Land Transport Authority current project page: JRL stages 1 and 2 in 2028, stage 3 in 2029. Supersedes the 2023 announcement."
+    },
+    {
+      "name": "LTA Downtown Line 2 extension",
+      "url": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/downtown_line_2_and_3_extensions.html",
+      "licence": "Public project facts cited; no open licence asserted.",
+      "attribution": "Land Transport Authority: DTL2e targeted for 2035."
+    },
+    {
+      "name": "ICA Woodlands Checkpoint redevelopment",
+      "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/woodlands-checkpoint-to-be-redeveloped-in-phases-construction-to-commence-in-2025",
+      "licence": "Public project facts cited; no open licence asserted.",
+      "attribution": "Immigration & Checkpoints Authority: phased redevelopment, fully operational from 2032."
+    },
+    {
+      "name": "Changi Airport Terminal 5",
+      "url": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/changi-airport-terminal-5-breaks-ground.html",
+      "licence": "Public project facts cited; no open licence asserted.",
+      "attribution": "Project status reviewed from the linked project authority on 5 November 2026. Long-term opening ranges are not converted to invented exact years."
+    },
+    {
+      "name": "Tuas Water Reclamation Plant / DTSS2",
+      "url": "https://www.pub.gov.sg/Professionals/Requirements/Used-Water/DTSS/Tuas-Water-Reclamation-Plant",
+      "licence": "Public project facts cited; no open licence asserted.",
+      "attribution": "Project status reviewed from the linked project authority on 5 November 2026. Long-term opening ranges are not converted to invented exact years."
+    },
+    {
+      "name": "Tuas Port expansion",
+      "url": "https://www.mpa.gov.sg/maritime-singapore/port-of-the-future",
+      "licence": "Public project facts cited; no open licence asserted.",
+      "attribution": "Project status reviewed from the linked project authority on 5 November 2026. Long-term opening ranges are not converted to invented exact years."
+    },
+    {
+      "name": "Proxi Singapore Construction Sites (reviewed, not imported)",
+      "url": "https://app.proxi.co/m/66398e32567f434b68e48141/about",
+      "licence": "Reference reviewed; no place data redistributed.",
+      "attribution": "All 18 entries reviewed. Updated May 2024; 16 contractor/business premises and two project offices, not reliable active worksite locations. None imported. JRL Jurong East is independently sourced from LTA."
+    },
+    {
+      "name": "LTA station opening status",
+      "url": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/thomson_east_coast_line.html",
+      "licence": "Public project facts cited; no open licence asserted.",
+      "attribution": "Deferred Marina South, Mount Pleasant and Founders Memorial stations excluded as meeting spots. Existing exit geometry alone does not establish public access."
+    },
+    {
+      "name": "NUS Singapore locality gazetteer",
+      "url": "https://lkcnhm.nus.edu.sg/app/uploads/2017/04/gazetteer_locality_names.pdf",
+      "licence": "Locality coordinates cited; no open licence asserted.",
+      "attribution": "Chen et al., A Gazetteer of the Singapore Locality Names, entry 468: former Tanglin Shopping Centre coordinates. Used for the redevelopment footprint after the demolished address stopped resolving in OneMap."
+    },
+    {
+      "name": "OpenStreetMap Tuas WRP construction footprint",
+      "url": "https://www.openstreetmap.org/way/1004232926",
+      "licence": "Open Database Licence (ODbL) 1.0: https://www.openstreetmap.org/copyright",
+      "attribution": "Copyright OpenStreetMap contributors. Tuas Water Reclamation Plant construction polygon centroid derived from way 1004232926, accessed 5 November 2026. Project status is independently sourced from PUB."
+    },
+    {
+      "name": "OneMap Search",
+      "url": "https://www.onemap.gov.sg/",
+      "licence": "OneMap API terms of use",
+      "attribution": "Address lookup: OneMap, Singapore Land Authority. Dated results cached locally; reference worksite coordinates retained when search results do not match."
+    }
+  ],
+  "sites": [
+    {
+      "id": "hdb-56fb4068ad28",
+      "name": "Ang Mo Kio Avenue 10 · blocks 415A",
+      "kind": "hdb",
+      "area": "Ang Mo Kio",
+      "address": "Blocks 415A, Ang Mo Kio Avenue 10, Singapore",
+      "lat": 1.3643852,
+      "lng": 103.8544694,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Ang Mo Kio Ave 10 Blk 409 (Teck Ghee Square)",
+          "type": "hawker",
+          "lat": 1.3626541,
+          "lng": 103.8552883,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 10 Blk 453A (Chong Boon Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3682478,
+          "lng": 103.8563616,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 1 Blk 341 (Teck Ghee Court)",
+          "type": "hawker",
+          "lat": 1.3641072,
+          "lng": 103.8482422,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-304041c2e3e5",
+      "name": "Ang Mo Kio Avenue 10 · blocks 460A",
+      "kind": "hdb",
+      "area": "Ang Mo Kio",
+      "address": "Blocks 460A, Ang Mo Kio Avenue 10, Singapore",
+      "lat": 1.3666066,
+      "lng": 103.8589726,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Ang Mo Kio Ave 10 Blk 453A (Chong Boon Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3682478,
+          "lng": 103.8563616,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 10 Blk 409 (Teck Ghee Square)",
+          "type": "hawker",
+          "lat": 1.3626541,
+          "lng": 103.8552883,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 10 Blk 527 (Cheng San Market and Cooked Food Centre)",
+          "type": "hawker",
+          "lat": 1.3727721,
+          "lng": 103.854458,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-72fd59eae189",
+      "name": "Ang Mo Kio Avenue 2 · blocks 183, 183A, 184, 184A, 184B",
+      "kind": "hdb",
+      "area": "Ang Mo Kio",
+      "address": "Blocks 183, 183A, 184, 184A, 184B, Ang Mo Kio Avenue 2, Singapore",
+      "lat": 1.3764192,
+      "lng": 103.8355077,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Mayflower MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.3737198,
+          "lng": 103.8370317,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 4 Blk 160/162 (Mayflower Market)",
+          "type": "hawker",
+          "lat": 1.3745277,
+          "lng": 103.8391761,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 4 Blk 628 (Ang Mo Kio 628 Market)",
+          "type": "hawker",
+          "lat": 1.3809876,
+          "lng": 103.8406281,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-476c51376cee",
+      "name": "Ang Mo Kio Central 2 · blocks 731, 731A, 731B, 731C, 732 and nearby blocks",
+      "kind": "hdb",
+      "area": "Ang Mo Kio",
+      "address": "Blocks 731, 731A, 731B, 731C, 732 and nearby blocks, Ang Mo Kio Central 2, Singapore",
+      "lat": 1.3741482,
+      "lng": 103.8472585,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Ang Mo Kio Ave 6 Blk 724 (Blk 724 Ang Mo Kio Market)",
+          "type": "hawker",
+          "lat": 1.3721726,
+          "lng": 103.8465103,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3698824,
+          "lng": 103.8498246,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 10 Blk 527 (Cheng San Market and Cooked Food Centre)",
+          "type": "hawker",
+          "lat": 1.3727721,
+          "lng": 103.854458,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-141aa7b75657",
+      "name": "Ang Mo Kio Central 3 · blocks 733, 733A, 733B, 734, 734A",
+      "kind": "hdb",
+      "area": "Ang Mo Kio",
+      "address": "Blocks 733, 733A, 733B, 734, 734A, Ang Mo Kio Central 3, Singapore",
+      "lat": 1.3754893,
+      "lng": 103.8458761,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Ang Mo Kio Ave 6 Blk 724 (Blk 724 Ang Mo Kio Market)",
+          "type": "hawker",
+          "lat": 1.3721726,
+          "lng": 103.8465103,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Yio Chu Kang MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3815475,
+          "lng": 103.8449468,
+          "walk_min": 9,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 4 Blk 160/162 (Mayflower Market)",
+          "type": "hawker",
+          "lat": 1.3745277,
+          "lng": 103.8391761,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-61abf47d53a2",
+      "name": "Ang Mo Kio Rise · blocks 247, 247A, 248, 248A",
+      "kind": "hdb",
+      "area": "Ang Mo Kio",
+      "address": "Blocks 247, 247A, 248, 248A, Ang Mo Kio Rise, Singapore",
+      "lat": 1.3682113,
+      "lng": 103.832287,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bright Hill MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.3640372,
+          "lng": 103.8336354,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Mayflower MRT Station Exit 6",
+          "type": "mrt",
+          "lat": 1.3708961,
+          "lng": 103.8363087,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Sembawang Hills Food Centre (Jalan Leban Food Centre)",
+          "type": "hawker",
+          "lat": 1.3723195,
+          "lng": 103.8290181,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-dc7a9888aeab",
+      "name": "Ang Mo Kio Street 82 · blocks 800, 800A, 802, 802A, 802B and nearby blocks",
+      "kind": "hdb",
+      "area": "Ang Mo Kio",
+      "address": "Blocks 800, 800A, 802, 802A, 802B and nearby blocks, Ang Mo Kio Street 82, Singapore",
+      "lat": 1.3772879,
+      "lng": 103.8531651,
+      "crew": "large",
+      "crew_note": "Estimate from 19 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Ang Mo Kio Ave 10 Blk 527 (Cheng San Market and Cooked Food Centre)",
+          "type": "hawker",
+          "lat": 1.3727721,
+          "lng": 103.854458,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3698824,
+          "lng": 103.8498246,
+          "walk_min": 12,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 6 Blk 724 (Blk 724 Ang Mo Kio Market)",
+          "type": "hawker",
+          "lat": 1.3721726,
+          "lng": 103.8465103,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "crl-ang-mo-kio",
+      "name": "Cross Island Line Ang Mo Kio interchange",
+      "kind": "rail",
+      "area": "Ang Mo Kio",
+      "address": "Ang Mo Kio MRT Station",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2030",
+      "source": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/cross_island_line.html",
+      "last_checked": "2026-11-05",
+      "lat": 1.3699328,
+      "lng": 103.8495581,
+      "meet": [
+        {
+          "name": "Ang Mo Kio MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3696853,
+          "lng": 103.8495961,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 6 Blk 724 (Blk 724 Ang Mo Kio Market)",
+          "type": "hawker",
+          "lat": 1.3721726,
+          "lng": 103.8465103,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 10 Blk 527 (Cheng San Market and Cooked Food Centre)",
+          "type": "hawker",
+          "lat": 1.3727721,
+          "lng": 103.854458,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-4c1084d3b0e6",
+      "name": "Bayshore Street · blocks 911, 911A, 911B, 911C, 912 and nearby blocks",
+      "kind": "hdb",
+      "area": "Bedok",
+      "address": "Blocks 911, 911A, 911B, 911C, 912 and nearby blocks, Bayshore Street, Singapore",
+      "lat": 1.3141141,
+      "lng": 103.9458378,
+      "crew": "large",
+      "crew_note": "Estimate from 17 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bayshore MRT Station Exit 4",
+          "type": "mrt",
+          "lat": 1.3135264,
+          "lng": 103.9426759,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-f088fd7dd20d",
+      "name": "Bedok North Street 3 · blocks 558, 558A, 558B, 559, 559A",
+      "kind": "hdb",
+      "area": "Bedok",
+      "address": "Blocks 558, 558A, 558B, 559, 559A, Bedok North Street 3, Singapore",
+      "lat": 1.3346111,
+      "lng": 103.932209,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bedok Reservoir MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3363478,
+          "lng": 103.9328868,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Bedok North Street 3 Blk 511 (Kaki Bukit 511 Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3332199,
+          "lng": 103.9305815,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Bedok North Street 4 Blk 85 (85 Fengshan Centre)",
+          "type": "hawker",
+          "lat": 1.3320048,
+          "lng": 103.9387684,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-d0dd23722937",
+      "name": "Bedok South Avenue 3 · blocks 45, 46, 46A, 46B, 46C and nearby blocks",
+      "kind": "hdb",
+      "area": "Bedok",
+      "address": "Blocks 45, 46, 46A, 46B, 46C and nearby blocks, Bedok South Avenue 3, Singapore",
+      "lat": 1.3223459,
+      "lng": 103.9430878,
+      "crew": "large",
+      "crew_note": "Estimate from 13 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "New Upper Changi Road Blk 58",
+          "type": "hawker",
+          "lat": 1.3242009,
+          "lng": 103.9411253,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Tanah Merah MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3268577,
+          "lng": 103.9457947,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Bedok South Road Blk 16",
+          "type": "hawker",
+          "lat": 1.3205008,
+          "lng": 103.9354736,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-c77d9d311654",
+      "name": "Chai Chee Lane · blocks 813, 813A, 814, 814A, 814B and nearby blocks",
+      "kind": "hdb",
+      "area": "Bedok",
+      "address": "Blocks 813, 813A, 814, 814A, 814B and nearby blocks, Chai Chee Lane, Singapore",
+      "lat": 1.3300987,
+      "lng": 103.9199903,
+      "crew": "large",
+      "crew_note": "Estimate from 11 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bedok North MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3341661,
+          "lng": 103.9190628,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Bedok North Street 3 Blk 538",
+          "type": "hawker",
+          "lat": 1.3320673,
+          "lng": 103.9246213,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Bedok Reservoir Road Blk 630",
+          "type": "hawker",
+          "lat": 1.3327728,
+          "lng": 103.9141908,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-07596e9fa18f",
+      "name": "Chai Chee Street · blocks 810, 810A, 811, 811A, 811B and nearby blocks",
+      "kind": "hdb",
+      "area": "Bedok",
+      "address": "Blocks 810, 810A, 811, 811A, 811B and nearby blocks, Chai Chee Street, Singapore",
+      "lat": 1.3271504,
+      "lng": 103.9206665,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bedok North Street 3 Blk 538",
+          "type": "hawker",
+          "lat": 1.3320673,
+          "lng": 103.9246213,
+          "walk_min": 9,
+          "source": "data"
+        },
+        {
+          "name": "Bedok North MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3341661,
+          "lng": 103.9190628,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Bedok Reservoir Road Blk 630",
+          "type": "hawker",
+          "lat": 1.3327728,
+          "lng": 103.9141908,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-2d3fed6288db",
+      "name": "Jalan Kembangan · blocks 117, 117A, 117B",
+      "kind": "hdb",
+      "area": "Bedok",
+      "address": "Blocks 117, 117A, 117B, Jalan Kembangan, Singapore",
+      "lat": 1.3222041,
+      "lng": 103.9131002,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Kembangan MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3211521,
+          "lng": 103.9128993,
+          "walk_min": 2,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-ac7e733fce6b",
+      "name": "New Upper Changi Road · blocks 49, 49A, 49B",
+      "kind": "hdb",
+      "area": "Bedok",
+      "address": "Blocks 49, 49A, 49B, New Upper Changi Road, Singapore",
+      "lat": 1.3241239,
+      "lng": 103.9388979,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "New Upper Changi Road Blk 58",
+          "type": "hawker",
+          "lat": 1.3242009,
+          "lng": 103.9411253,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Bedok South Road Blk 16",
+          "type": "hawker",
+          "lat": 1.3205008,
+          "lng": 103.9354736,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Bedok North Street 1 Blk 216",
+          "type": "hawker",
+          "lat": 1.3270627,
+          "lng": 103.933218,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-a0e7cee2e0bc",
+      "name": "Bishan Street 12 · blocks 100, 100A, 100B, 97, 99",
+      "kind": "hdb",
+      "area": "Bishan",
+      "address": "Blocks 100, 100A, 100B, 97, 99, Bishan Street 12, Singapore",
+      "lat": 1.3459581,
+      "lng": 103.8492196,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bishan MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3505796,
+          "lng": 103.848305,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Braddell MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3406722,
+          "lng": 103.8474408,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Toa Payoh Lorong 4 Blk 93",
+          "type": "hawker",
+          "lat": 1.3384747,
+          "lng": 103.8495134,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-5a1d9be0ffbd",
+      "name": "Bishan Street 13 · blocks 535",
+      "kind": "hdb",
+      "area": "Bishan",
+      "address": "Blocks 535, Bishan Street 13, Singapore",
+      "lat": 1.351401,
+      "lng": 103.8544543,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bishan MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3510532,
+          "lng": 103.8502011,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Lorong Chuan MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3517385,
+          "lng": 103.8629183,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-bbae225fea47",
+      "name": "Bishan Street 14 · blocks 532",
+      "kind": "hdb",
+      "area": "Bishan",
+      "address": "Blocks 532, Bishan Street 14, Singapore",
+      "lat": 1.3532659,
+      "lng": 103.8529717,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bishan MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3510532,
+          "lng": 103.8502011,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "crl-bright-hill",
+      "name": "Cross Island Line Bright Hill interchange",
+      "kind": "rail",
+      "area": "Bishan",
+      "address": "Bright Hill MRT Station",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2030",
+      "source": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/cross_island_line.html",
+      "last_checked": "2026-11-05",
+      "lat": 1.3631442,
+      "lng": 103.8335129,
+      "meet": [
+        {
+          "name": "Bright Hill MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.3632828,
+          "lng": 103.8335106,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Ang Mo Kio Ave 1 Blk 226D (Kebun Baru Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.366801,
+          "lng": 103.8391523,
+          "walk_min": 10,
+          "source": "data"
+        },
+        {
+          "name": "Upper Thomson MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.3557366,
+          "lng": 103.831833,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-bfa10f720e37",
+      "name": "Sin Ming Street · blocks 27, 27A, 28, 28A, 28B and nearby blocks",
+      "kind": "hdb",
+      "area": "Bishan",
+      "address": "Blocks 27, 27A, 28, 28A, 28B and nearby blocks, Sin Ming Street, Singapore",
+      "lat": 1.3555189,
+      "lng": 103.8387524,
+      "crew": "large",
+      "crew_note": "Estimate from 9 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Shunfu Road Blk 320 (Shunfu Mart)",
+          "type": "hawker",
+          "lat": 1.3520256,
+          "lng": 103.8369645,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Upper Thomson MRT Station Exit 3",
+          "type": "mrt",
+          "lat": 1.3541446,
+          "lng": 103.8339246,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Marymount MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3489804,
+          "lng": 103.839088,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-92181289800a",
+      "name": "Bukit Batok West Avenue 5 · blocks 470A, 470B, 470C, 470D, 471 and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Batok",
+      "address": "Blocks 470A, 470B, 470C, 470D, 471 and nearby blocks, Bukit Batok West Avenue 5, Singapore",
+      "lat": 1.3580017,
+      "lng": 103.7447877,
+      "crew": "large",
+      "crew_note": "Estimate from 19 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bukit Gombak MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.359065,
+          "lng": 103.7517266,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-9fa83def8803",
+      "name": "Bukit Batok West Avenue 8 · blocks 457, 457A, 458, 458A, 458B and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Batok",
+      "address": "Blocks 457, 457A, 458, 458A, 458B and nearby blocks, Bukit Batok West Avenue 8, Singapore",
+      "lat": 1.3543786,
+      "lng": 103.7378766,
+      "crew": "large",
+      "crew_note": "Estimate from 8 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-fa53efc8b40b",
+      "name": "Plantation Close · blocks 100, 100A, 100B, 101, 101A and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Batok",
+      "address": "Blocks 100, 100A, 100B, 101, 101A and nearby blocks, Plantation Close, Singapore",
+      "lat": 1.3506965,
+      "lng": 103.7356185,
+      "crew": "large",
+      "crew_note": "Estimate from 19 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jurong East Ave 1 Blk 347 (Yuhua Market and Hawker Centre)",
+          "type": "hawker",
+          "lat": 1.345417,
+          "lng": 103.7317038,
+          "walk_min": 10,
+          "source": "data"
+        },
+        {
+          "name": "Jurong East Street 24 Blk 254 (Yuhua Village Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3434882,
+          "lng": 103.7377384,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Chinese Garden MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3424387,
+          "lng": 103.7322202,
+          "walk_min": 13,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-e6e05e1a1dd3",
+      "name": "Plantation Crescent · blocks 108, 108A, 109, 109A, 109B and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Batok",
+      "address": "Blocks 108, 108A, 109, 109A, 109B and nearby blocks, Plantation Crescent, Singapore",
+      "lat": 1.3524944,
+      "lng": 103.7360383,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jurong East Ave 1 Blk 347 (Yuhua Market and Hawker Centre)",
+          "type": "hawker",
+          "lat": 1.345417,
+          "lng": 103.7317038,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-4cf71f3b4757",
+      "name": "Alexandra Road · blocks 138, 138A, 138B",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 138, 138A, 138B, Alexandra Road, Singapore",
+      "lat": 1.291713,
+      "lng": 103.8195459,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Redhill MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.2894859,
+          "lng": 103.8172494,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 79 (Redhill Market)",
+          "type": "hawker",
+          "lat": 1.2878432,
+          "lng": 103.8183521,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 85 (Redhill Food Centre)",
+          "type": "hawker",
+          "lat": 1.2873075,
+          "lng": 103.8183112,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-5b884a5c4059",
+      "name": "Alexandra Road · blocks 139, 140, 140A, 140B, 140C and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 139, 140, 140A, 140B, 140C and nearby blocks, Alexandra Road, Singapore",
+      "lat": 1.2914818,
+      "lng": 103.8218292,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Redhill MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.2894859,
+          "lng": 103.8172494,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 79 (Redhill Market)",
+          "type": "hawker",
+          "lat": 1.2878432,
+          "lng": 103.8183521,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 85 (Redhill Food Centre)",
+          "type": "hawker",
+          "lat": 1.2873075,
+          "lng": 103.8183112,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-d2cebd4a4b61",
+      "name": "Alexandra View · blocks 107, 109, 109A, 109B, 110",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 107, 109, 109A, 109B, 110, Alexandra View, Singapore",
+      "lat": 1.2897754,
+      "lng": 103.8182133,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Redhill MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.2894859,
+          "lng": 103.8172494,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 79 (Redhill Market)",
+          "type": "hawker",
+          "lat": 1.2878432,
+          "lng": 103.8183521,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 85 (Redhill Food Centre)",
+          "type": "hawker",
+          "lat": 1.2873075,
+          "lng": 103.8183112,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-661b937244b0",
+      "name": "Berlayar Street · blocks 200, 200A, 200B, 201, 201A and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 200, 200A, 200B, 201, 201A and nearby blocks, Berlayar Street, Singapore",
+      "lat": 1.2698183,
+      "lng": 103.8080681,
+      "crew": "large",
+      "crew_note": "Estimate from 14 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Telok Blangah MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2707212,
+          "lng": 103.8098837,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Telok Blangah Drive Blk 79 (Telok Blangah Food Centre)",
+          "type": "hawker",
+          "lat": 1.273356,
+          "lng": 103.8076181,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Telok Blangah Drive Blk 82 (Telok Blangah Market)",
+          "type": "hawker",
+          "lat": 1.2738908,
+          "lng": 103.8079003,
+          "walk_min": 6,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-cec178e775fa",
+      "name": "Berlayar Street · blocks 202, 203, 204, 204A, 204B and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 202, 203, 204, 204A, 204B and nearby blocks, Berlayar Street, Singapore",
+      "lat": 1.2686835,
+      "lng": 103.8088229,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Telok Blangah MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2707212,
+          "lng": 103.8098837,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Telok Blangah Drive Blk 79 (Telok Blangah Food Centre)",
+          "type": "hawker",
+          "lat": 1.273356,
+          "lng": 103.8076181,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Telok Blangah Drive Blk 82 (Telok Blangah Market)",
+          "type": "hawker",
+          "lat": 1.2738908,
+          "lng": 103.8079003,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-e6696e850cc0",
+      "name": "Bukit Merah View · blocks 131, 132A, 133, 134, 134A and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 131, 132A, 133, 134, 134A and nearby blocks, Bukit Merah View, Singapore",
+      "lat": 1.2863681,
+      "lng": 103.8235516,
+      "crew": "large",
+      "crew_note": "Estimate from 10 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bukit Merah View Blk 115 (Blk 115 Bukit Merah View Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.2855045,
+          "lng": 103.8218233,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Tiong Bahru MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2857595,
+          "lng": 103.8269906,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Beo Crescent Market",
+          "type": "hawker",
+          "lat": 1.2888309,
+          "lng": 103.8273539,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-90c9ec238674",
+      "name": "Havelock Road · blocks 22C",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 22C, Havelock Road, Singapore",
+      "lat": 1.2887848,
+      "lng": 103.8282685,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Beo Crescent Market",
+          "type": "hawker",
+          "lat": 1.2888309,
+          "lng": 103.8273539,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Havelock Road Blk 22A/B (Havelock Road Cooked Food Centre)",
+          "type": "hawker",
+          "lat": 1.2879705,
+          "lng": 103.8296234,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Tiong Bahru MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.2863619,
+          "lng": 103.8274964,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-e4100805cd2d",
+      "name": "Havelock Road · blocks 97, 97A, 98, 98A",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 97, 97A, 98, 98A, Havelock Road, Singapore",
+      "lat": 1.2886,
+      "lng": 103.8312947,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Havelock Road Blk 22A/B (Havelock Road Cooked Food Centre)",
+          "type": "hawker",
+          "lat": 1.2879705,
+          "lng": 103.8296234,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Havelock MRT Station Exit 3",
+          "type": "mrt",
+          "lat": 1.2888436,
+          "lng": 103.8333695,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Zion Riverside Food Centre",
+          "type": "hawker",
+          "lat": 1.2923422,
+          "lng": 103.831189,
+          "walk_min": 6,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-58ad3800f6ca",
+      "name": "Jalan Rumah Tinggi · blocks 35A",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 35A, Jalan Rumah Tinggi, Singapore",
+      "lat": 1.2876939,
+      "lng": 103.8089335,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jalan Bukit Merah Blk 6 (ABC Brickworks Market/Food Centre)",
+          "type": "hawker",
+          "lat": 1.286883,
+          "lng": 103.8081313,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Bukit Merah Lane 1 Blk 120 (Alexandra Village Food Centre)",
+          "type": "hawker",
+          "lat": 1.2863059,
+          "lng": 103.8044926,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Queenstown MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2942473,
+          "lng": 103.8061828,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-3f65c88528fa",
+      "name": "Kim Tian Place · blocks 120C",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 120C, Kim Tian Place, Singapore",
+      "lat": 1.2831865,
+      "lng": 103.8281914,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tiong Bahru MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2857595,
+          "lng": 103.8269906,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Jalan Bukit Merah Blk 112 (Blk 112 Jalan Bukit Merah Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.2800048,
+          "lng": 103.8260133,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Tiong Bahru Market",
+          "type": "hawker",
+          "lat": 1.2847856,
+          "lng": 103.8321815,
+          "walk_min": 6,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "promenade-peak",
+      "name": "Promenade Peak",
+      "kind": "condo",
+      "area": "Bukit Merah",
+      "address": "Zion Promenade, Promenade Peak, Singapore",
+      "crew": "medium",
+      "crew_note": "Estimate: condominium-scale project, 30-150 workers; actual staffing varies by construction phase.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/promenade-peak/",
+      "last_checked": "2026-11-05",
+      "lat": 1.2915701,
+      "lng": 103.8331425,
+      "meet": [
+        {
+          "name": "Great World MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.2928695,
+          "lng": 103.8326271,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Havelock MRT Station Exit 4",
+          "type": "mrt",
+          "lat": 1.2901669,
+          "lng": 103.8340035,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Zion Riverside Food Centre",
+          "type": "hawker",
+          "lat": 1.2923422,
+          "lng": 103.831189,
+          "walk_min": 3,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-080ed689afc8",
+      "name": "Redhill Close · blocks 144, 144A, 144B, 145, 145A and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 144, 144A, 144B, 145, 145A and nearby blocks, Redhill Close, Singapore",
+      "lat": 1.2855749,
+      "lng": 103.8170635,
+      "crew": "large",
+      "crew_note": "Estimate from 12 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bukit Merah Central Blk 163 (Bukit Merah Central Food Centre)",
+          "type": "hawker",
+          "lat": 1.2836614,
+          "lng": 103.8170727,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 85 (Redhill Food Centre)",
+          "type": "hawker",
+          "lat": 1.2873075,
+          "lng": 103.8183112,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 79 (Redhill Market)",
+          "type": "hawker",
+          "lat": 1.2878432,
+          "lng": 103.8183521,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-6ad2b15df3e9",
+      "name": "Redhill Lane · blocks 84A",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 84A, Redhill Lane, Singapore",
+      "lat": 1.2872639,
+      "lng": 103.8190333,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Redhill Lane Blk 85 (Redhill Food Centre)",
+          "type": "hawker",
+          "lat": 1.2873075,
+          "lng": 103.8183112,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 79 (Redhill Market)",
+          "type": "hawker",
+          "lat": 1.2878432,
+          "lng": 103.8183521,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Redhill MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.2894859,
+          "lng": 103.8172494,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-a8b91cd81a17",
+      "name": "Tanglin Road · blocks 111, 111A, 111B, 112, 112A",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 111, 111A, 111B, 112, 112A, Tanglin Road, Singapore",
+      "lat": 1.2932478,
+      "lng": 103.8165584,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Redhill MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.2894859,
+          "lng": 103.8172494,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 79 (Redhill Market)",
+          "type": "hawker",
+          "lat": 1.2878432,
+          "lng": 103.8183521,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Redhill Lane Blk 85 (Redhill Food Centre)",
+          "type": "hawker",
+          "lat": 1.2873075,
+          "lng": 103.8183112,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-d58f24cdf715",
+      "name": "Telok Blangah Drive · blocks 78, 78C",
+      "kind": "hdb",
+      "area": "Bukit Merah",
+      "address": "Blocks 78, 78C, Telok Blangah Drive, Singapore",
+      "lat": 1.2732672,
+      "lng": 103.8082951,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Telok Blangah Drive Blk 79 (Telok Blangah Food Centre)",
+          "type": "hawker",
+          "lat": 1.273356,
+          "lng": 103.8076181,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Telok Blangah Drive Blk 82 (Telok Blangah Market)",
+          "type": "hawker",
+          "lat": 1.2738908,
+          "lng": 103.8079003,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Telok Blangah MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2707212,
+          "lng": 103.8098837,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "zyon-grand",
+      "name": "Zyon Grand",
+      "kind": "condo",
+      "area": "Bukit Merah",
+      "address": "Zion Road, Zyon Grand, Singapore",
+      "crew": "medium",
+      "crew_note": "Estimate: condominium-scale project, 30-150 workers; actual staffing varies by construction phase.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/zyon-grand/",
+      "last_checked": "2026-11-05",
+      "lat": 1.2905722,
+      "lng": 103.8336631,
+      "meet": [
+        {
+          "name": "Havelock MRT Station Exit 4",
+          "type": "mrt",
+          "lat": 1.2901669,
+          "lng": 103.8340035,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Great World MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.2928695,
+          "lng": 103.8326271,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Zion Riverside Food Centre",
+          "type": "hawker",
+          "lat": 1.2923422,
+          "lng": 103.831189,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-4848e0ff5347",
+      "name": "Bukit Panjang Ring Road · blocks 489, 489A, 490, 490A, 490B and nearby blocks",
+      "kind": "hdb",
+      "area": "Bukit Panjang",
+      "address": "Blocks 489, 489A, 490, 490A, 490B and nearby blocks, Bukit Panjang Ring Road, Singapore",
+      "lat": 1.3826005,
+      "lng": 103.7739334,
+      "crew": "large",
+      "crew_note": "Estimate from 9 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bangkit LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3798533,
+          "lng": 103.7725906,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Fajar LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3844651,
+          "lng": 103.7706755,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Pending LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3762971,
+          "lng": 103.7713278,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-f8605d6cb5b7",
+      "name": "Petir Road · blocks 156, 156A, 157",
+      "kind": "hdb",
+      "area": "Bukit Panjang",
+      "address": "Blocks 156, 156A, 157, Petir Road, Singapore",
+      "lat": 1.3746888,
+      "lng": 103.7680642,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Petir LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3776032,
+          "lng": 103.766793,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Pending LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3762971,
+          "lng": 103.7713278,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Bukit Panjang LRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3778632,
+          "lng": 103.7631785,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "anagram-homes",
+      "name": "Anagram Homes",
+      "kind": "condo",
+      "area": "Bukit Timah",
+      "address": "Kheam Hock Road, Singapore",
+      "crew": "small",
+      "crew_note": "Estimate: small landed development or substation, fewer than 30 workers; not a measured headcount.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/anagram-homes/",
+      "last_checked": "2026-11-05",
+      "lat": 1.3282266,
+      "lng": 103.8205543,
+      "meet": [
+        {
+          "name": "Botanic Gardens MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3226846,
+          "lng": 103.8159141,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Adam Road Food Centre",
+          "type": "hawker",
+          "lat": 1.3241599,
+          "lng": 103.8141659,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Stevens MRT Station Exit 4",
+          "type": "mrt",
+          "lat": 1.3215199,
+          "lng": 103.8258829,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "changi-t5",
+      "name": "Changi Airport Terminal 5",
+      "kind": "infra",
+      "area": "Changi",
+      "address": "Changi East, Singapore",
+      "crew": "mega",
+      "crew_note": "Estimate: very large infrastructure, depot or integrated resort project, 500+ workers across the project; not the number at lunch.",
+      "est_completion": null,
+      "source": "https://www.changiairport.com/en/corporate/our-media-hub/newsroom/2025/changi-airport-terminal-5-breaks-ground.html",
+      "last_checked": "2026-11-05",
+      "lat": 1.332,
+      "lng": 104.012,
+      "meet": []
+    },
+    {
+      "id": "jrl-choa-chu-kang",
+      "name": "Jurong Region Line Choa Chu Kang interchange",
+      "kind": "rail",
+      "area": "Choa Chu Kang",
+      "address": "Choa Chu Kang MRT Station",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2028",
+      "source": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/jurong_region_line.html/1000",
+      "last_checked": "2026-11-05",
+      "lat": 1.3853632,
+      "lng": 103.7443708,
+      "meet": [
+        {
+          "name": "Choa Chu Kang MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3854,
+          "lng": 103.74456,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Choa Chu Kang LRT Station Exit E",
+          "type": "mrt",
+          "lat": 1.385,
+          "lng": 103.74462,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "South View LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3803177,
+          "lng": 103.7451011,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-1679bd7e3674",
+      "name": "Keat Hong Link · blocks 822, 822A, 822B, 823, 823A and nearby blocks",
+      "kind": "hdb",
+      "area": "Choa Chu Kang",
+      "address": "Blocks 822, 822A, 822B, 823, 823A and nearby blocks, Keat Hong Link, Singapore",
+      "lat": 1.3744078,
+      "lng": 103.7485483,
+      "crew": "large",
+      "crew_note": "Estimate from 8 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Keat Hong LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.378465,
+          "lng": 103.7492268,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Teck Whye LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3765642,
+          "lng": 103.7538261,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "South View LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3803177,
+          "lng": 103.7451011,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-c5374f1ae3c5",
+      "name": "Yew Tee Close · blocks 628, 628A",
+      "kind": "hdb",
+      "area": "Choa Chu Kang",
+      "address": "Blocks 628, 628A, Yew Tee Close, Singapore",
+      "lat": 1.3973196,
+      "lng": 103.7459227,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Yew Tee MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3972725,
+          "lng": 103.7471114,
+          "walk_min": 2,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-d492841ab56f",
+      "name": "Clementi Avenue 4 · blocks 317A",
+      "kind": "hdb",
+      "area": "Clementi",
+      "address": "Blocks 317A, Clementi Avenue 4, Singapore",
+      "lat": 1.3177494,
+      "lng": 103.7644217,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Clementi MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3154691,
+          "lng": 103.7651856,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Clementi Ave 3 Blk 448",
+          "type": "hawker",
+          "lat": 1.3133197,
+          "lng": 103.7645172,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Clementi Ave 2 Blk 353 (Clementi Ave 2 Market/Cooked Food Centre)",
+          "type": "hawker",
+          "lat": 1.3143733,
+          "lng": 103.7708055,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-03823956ca79",
+      "name": "Clementi Close · blocks 437, 437A, 437B, 438, 438A and nearby blocks",
+      "kind": "hdb",
+      "area": "Clementi",
+      "address": "Blocks 437, 437A, 437B, 438, 438A and nearby blocks, Clementi Close, Singapore",
+      "lat": 1.3168551,
+      "lng": 103.7626063,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Clementi MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3153736,
+          "lng": 103.7649821,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Clementi Ave 3 Blk 448",
+          "type": "hawker",
+          "lat": 1.3133197,
+          "lng": 103.7645172,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "West Coast Drive Blk 503 (Ayer Rajah Food Centre)",
+          "type": "hawker",
+          "lat": 1.3118031,
+          "lng": 103.7597514,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-3c907a9a6975",
+      "name": "Ghim Moh Link · blocks 53, 53A, 54, 54A, 55 and nearby blocks",
+      "kind": "hdb",
+      "area": "Clementi",
+      "address": "Blocks 53, 53A, 54, 54A, 55 and nearby blocks, Ghim Moh Link, Singapore",
+      "lat": 1.3109368,
+      "lng": 103.7818946,
+      "crew": "large",
+      "crew_note": "Estimate from 15 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Dover MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3116932,
+          "lng": 103.7784648,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Ghim Moh Road Blk 20",
+          "type": "hawker",
+          "lat": 1.3109966,
+          "lng": 103.7882303,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "ir2",
+      "name": "Marina Bay Sands IR2 expansion",
+      "kind": "commercial",
+      "area": "Downtown Core",
+      "address": "Bayfront Avenue, Singapore",
+      "crew": "mega",
+      "crew_note": "Estimate: very large infrastructure, depot or integrated resort project, 500+ workers across the project; not the number at lunch.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/ir2/",
+      "last_checked": "2026-11-05",
+      "lat": 1.2816178,
+      "lng": 103.8589851,
+      "meet": [
+        {
+          "name": "Bayfront MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2809674,
+          "lng": 103.8587319,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Marina Bay MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.277353,
+          "lng": 103.85447,
+          "walk_min": 9,
+          "source": "data"
+        },
+        {
+          "name": "Downtown MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.2794444,
+          "lng": 103.8531521,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "newport-plaza-fuji-xerox-towers-redevelopment",
+      "name": "Newport Plaza (Fuji Xerox Towers Redevelopment)",
+      "kind": "commercial",
+      "area": "Downtown Core",
+      "address": "Anson Road, Fuji Xerox Towers redevelopment, Singapore",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/newport-plaza-fuji-xerox-towers-redevelopment/",
+      "last_checked": "2026-11-05",
+      "lat": 1.2731883,
+      "lng": 103.8436935,
+      "meet": [
+        {
+          "name": "Prince Edward Road MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.2730338,
+          "lng": 103.8455753,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Tanjong Pagar MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2764085,
+          "lng": 103.844834,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Tanjong Pagar Plaza Blk 6 (Blk 6 Tanjong Pagar Plaza Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.2766137,
+          "lng": 103.8431617,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "the-clifford",
+      "name": "The Clifford",
+      "kind": "commercial",
+      "area": "Downtown Core",
+      "address": "24 Raffles Place, Singapore",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/the-clifford/",
+      "last_checked": "2026-11-05",
+      "lat": 1.2838553,
+      "lng": 103.8521397,
+      "meet": [
+        {
+          "name": "Raffles Place MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.2836305,
+          "lng": 103.8515625,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Telok Ayer MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.2824973,
+          "lng": 103.8487733,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Downtown MRT Station Exit F",
+          "type": "mrt",
+          "lat": 1.2797962,
+          "lng": 103.8524277,
+          "walk_min": 6,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "w-residences-singapore-marina-view",
+      "name": "W Residences Singapore – Marina View",
+      "kind": "condo",
+      "area": "Downtown Core",
+      "address": "151A Maxwell Rd Singapore 069121",
+      "crew": "medium",
+      "crew_note": "Estimate: condominium-scale project, 30-150 workers; actual staffing varies by construction phase.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/w-residences-singapore-marina-view/",
+      "last_checked": "2026-11-05",
+      "lat": 1.2766585,
+      "lng": 103.8498343,
+      "meet": [
+        {
+          "name": "Shenton Way MRT Station Exit 3",
+          "type": "mrt",
+          "lat": 1.2776296,
+          "lng": 103.8501288,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Tanjong Pagar MRT Station Exit E",
+          "type": "mrt",
+          "lat": 1.2762591,
+          "lng": 103.8470958,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Downtown MRT Station Exit E",
+          "type": "mrt",
+          "lat": 1.2795279,
+          "lng": 103.852478,
+          "walk_min": 6,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-3c96b6f11d4b",
+      "name": "Jalan Enam · blocks 22, 22A, 24, 24A, 24B",
+      "kind": "hdb",
+      "area": "Geylang",
+      "address": "Blocks 22, 22A, 24, 24A, 24B, Jalan Enam, Singapore",
+      "lat": 1.3065217,
+      "lng": 103.8856949,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Old Airport Road Blk 51 (51 Old Airport Road Food Centre and Shopping Mall)",
+          "type": "hawker",
+          "lat": 1.3082518,
+          "lng": 103.8858087,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Kallang Estate Fresh Market and Food Centre",
+          "type": "hawker",
+          "lat": 1.307344,
+          "lng": 103.8840177,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Mountbatten MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3060459,
+          "lng": 103.8832483,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-5231fcf381b3",
+      "name": "Lorong 1 Geylang · blocks 7A, 7B, 7C, 7D, 7E",
+      "kind": "hdb",
+      "area": "Geylang",
+      "address": "Blocks 7A, 7B, 7C, 7D, 7E, Lorong 1 Geylang, Singapore",
+      "lat": 1.3120725,
+      "lng": 103.8707345,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Kallang MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3117818,
+          "lng": 103.8715871,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Upper Boon Keng Road Blk 17 (Blk 17 Upper Boon Keng Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3150284,
+          "lng": 103.8716204,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Bendemeer MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3134807,
+          "lng": 103.8632192,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-42ab6e7b0531",
+      "name": "Merpati Road · blocks 135, 135A, 136, 136A",
+      "kind": "hdb",
+      "area": "Geylang",
+      "address": "Blocks 135, 135A, 136, 136A, Merpati Road, Singapore",
+      "lat": 1.3267742,
+      "lng": 103.8822839,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Mattar MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3272514,
+          "lng": 103.8827321,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Circuit Road Blk 79/79A",
+          "type": "hawker",
+          "lat": 1.3265971,
+          "lng": 103.8850523,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Circuit Road Blk 89",
+          "type": "hawker",
+          "lat": 1.3235797,
+          "lng": 103.8854388,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "contract-821a-kim-chuan-depot-extension",
+      "name": "Contract 821A Kim Chuan Depot Extension",
+      "kind": "rail",
+      "area": "Hougang",
+      "address": "Kim Chuan Road, Singapore",
+      "crew": "mega",
+      "crew_note": "Estimate: very large infrastructure, depot or integrated resort project, 500+ workers across the project; not the number at lunch.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/contract-821a-kim-chuan-depot-extension/",
+      "last_checked": "2026-11-05",
+      "lat": 1.3412513,
+      "lng": 103.8893827,
+      "meet": [
+        {
+          "name": "Tai Seng MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3357724,
+          "lng": 103.8882612,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "crl-hougang",
+      "name": "Cross Island Line Hougang interchange",
+      "kind": "rail",
+      "area": "Hougang",
+      "address": "Hougang MRT Station",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2030",
+      "source": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/cross_island_line.html",
+      "last_checked": "2026-11-05",
+      "lat": 1.3712923,
+      "lng": 103.8923805,
+      "meet": [
+        {
+          "name": "Hougang MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3719461,
+          "lng": 103.8929724,
+          "walk_min": 2,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-ab601d194f79",
+      "name": "Hougang Street 13 · blocks 182C, 183, 183A, 183B, 183C",
+      "kind": "hdb",
+      "area": "Hougang",
+      "address": "Blocks 182C, 183, 183A, 183B, 183C, Hougang Street 13, Singapore",
+      "lat": 1.3464072,
+      "lng": 103.8870389,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bartley MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3422487,
+          "lng": 103.8802559,
+          "walk_min": 12,
+          "source": "data"
+        },
+        {
+          "name": "Hougang Ave 1 Blk 105 (Hougang 105 Hainanese Village Centre)",
+          "type": "hawker",
+          "lat": 1.3540827,
+          "lng": 103.8901304,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-6c7fbb00eb86",
+      "name": "Hougang Street 31 · blocks 373B",
+      "kind": "hdb",
+      "area": "Hougang",
+      "address": "Blocks 373B, Hougang Street 31, Singapore",
+      "lat": 1.3621971,
+      "lng": 103.8907948,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Hougang Street 21 Blk 209 (Kovan Hougang Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3590838,
+          "lng": 103.8860554,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Kovan MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.360028,
+          "lng": 103.8854506,
+          "walk_min": 9,
+          "source": "data"
+        },
+        {
+          "name": "Hougang Ave 1 Blk 105 (Hougang 105 Hainanese Village Centre)",
+          "type": "hawker",
+          "lat": 1.3540827,
+          "lng": 103.8901304,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-9929b47dff9b",
+      "name": "Hougang Street 61 · blocks 685A",
+      "kind": "hdb",
+      "area": "Hougang",
+      "address": "Blocks 685A, Hougang Street 61, Singapore",
+      "lat": 1.3756672,
+      "lng": 103.8865343,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Hougang MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3721418,
+          "lng": 103.891975,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-3c0fe0e7428e",
+      "name": "Jurong East Street 24 · blocks 291, 291A, 291B, 292, 293 and nearby blocks",
+      "kind": "hdb",
+      "area": "Jurong East",
+      "address": "Blocks 291, 291A, 291B, 292, 293 and nearby blocks, Jurong East Street 24, Singapore",
+      "lat": 1.3434226,
+      "lng": 103.7441638,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jurong East Street 24 Blk 254 (Yuhua Village Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3434882,
+          "lng": 103.7377384,
+          "walk_min": 9,
+          "source": "data"
+        },
+        {
+          "name": "Bukit Batok MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3484054,
+          "lng": 103.7491184,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "jrl-jurong-east",
+      "name": "Jurong Region Line Jurong East interchange",
+      "kind": "rail",
+      "area": "Jurong East",
+      "address": "Jurong East MRT Station",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2028",
+      "source": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/jurong_region_line.html/1000",
+      "last_checked": "2026-11-05",
+      "lat": 1.3330275,
+      "lng": 103.7423705,
+      "meet": [
+        {
+          "name": "Jurong East MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3327487,
+          "lng": 103.7427621,
+          "walk_min": 1,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "jden",
+      "name": "J’Den",
+      "kind": "condo",
+      "area": "Jurong East",
+      "address": "Jurong East Central 1, JCube, Singapore",
+      "crew": "medium",
+      "crew_note": "Estimate: condominium-scale project, 30-150 workers; actual staffing varies by construction phase.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/jden/",
+      "last_checked": "2026-11-05",
+      "lat": 1.3333555,
+      "lng": 103.740182,
+      "meet": [
+        {
+          "name": "Jurong East MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3339896,
+          "lng": 103.7417599,
+          "walk_min": 3,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-236116438601",
+      "name": "Kang Ching Road · blocks 341, 341A, 341B, 341C, 342 and nearby blocks",
+      "kind": "hdb",
+      "area": "Jurong East",
+      "address": "Blocks 341, 341A, 341B, 341C, 342 and nearby blocks, Kang Ching Road, Singapore",
+      "lat": 1.3404983,
+      "lng": 103.7217351,
+      "crew": "large",
+      "crew_note": "Estimate from 11 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Lakeside MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3440815,
+          "lng": 103.7210754,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Taman Jurong Market and Food Centre",
+          "type": "hawker",
+          "lat": 1.3347211,
+          "lng": 103.7215838,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-9e664c326f7f",
+      "name": "Teban Gardens Road · blocks 417, 417A, 417B, 418, 418A and nearby blocks",
+      "kind": "hdb",
+      "area": "Jurong East",
+      "address": "Blocks 417, 417A, 417B, 418, 418A and nearby blocks, Teban Gardens Road, Singapore",
+      "lat": 1.3220014,
+      "lng": 103.7444557,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Teban Gardens Road Blk 37A (Teban Gardens Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3208311,
+          "lng": 103.7427481,
+          "walk_min": 3,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-bc5d3480491a",
+      "name": "Teban Gardens Road · blocks 423, 424, 425, 425A, 425B and nearby blocks",
+      "kind": "hdb",
+      "area": "Jurong East",
+      "address": "Blocks 423, 424, 425, 425A, 425B and nearby blocks, Teban Gardens Road, Singapore",
+      "lat": 1.3197063,
+      "lng": 103.7436729,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Teban Gardens Road Blk 37A (Teban Gardens Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3208311,
+          "lng": 103.7427481,
+          "walk_min": 3,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-6669be38fd0e",
+      "name": "Toh Guan Road · blocks 289",
+      "kind": "hdb",
+      "area": "Jurong East",
+      "address": "Blocks 289, Toh Guan Road, Singapore",
+      "lat": 1.3407491,
+      "lng": 103.7457713,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jurong East MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3339896,
+          "lng": 103.7417599,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Bukit Batok MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3484054,
+          "lng": 103.7491184,
+          "walk_min": 12,
+          "source": "data"
+        },
+        {
+          "name": "Jurong East Street 24 Blk 254 (Yuhua Village Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3434882,
+          "lng": 103.7377384,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "jrl-boon-lay",
+      "name": "Jurong Region Line Boon Lay interchange",
+      "kind": "rail",
+      "area": "Jurong West",
+      "address": "Boon Lay MRT Station",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2028",
+      "source": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/jurong_region_line.html/1000",
+      "last_checked": "2026-11-05",
+      "lat": 1.3386041,
+      "lng": 103.7060646,
+      "meet": [
+        {
+          "name": "Boon Lay MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3387381,
+          "lng": 103.7059552,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Pioneer MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3378316,
+          "lng": 103.6971295,
+          "walk_min": 13,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-220549716f6e",
+      "name": "Jurong West Street 42 · blocks 402A, 402B, 402C, 404A, 404B and nearby blocks",
+      "kind": "hdb",
+      "area": "Jurong West",
+      "address": "Blocks 402A, 402B, 402C, 404A, 404B and nearby blocks, Jurong West Street 42, Singapore",
+      "lat": 1.3540374,
+      "lng": 103.7236903,
+      "crew": "large",
+      "crew_note": "Estimate from 9 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jurong West Street 52 Blk 505",
+          "type": "hawker",
+          "lat": 1.3496573,
+          "lng": 103.7184437,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-c47fefbd2759",
+      "name": "Jurong West Street 93 · blocks 957",
+      "kind": "hdb",
+      "area": "Jurong West",
+      "address": "Blocks 957, Jurong West Street 93, Singapore",
+      "lat": 1.3406412,
+      "lng": 103.6905723,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Pioneer MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3378316,
+          "lng": 103.6971295,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-e3070e237860",
+      "name": "Jurong West Street 93 · blocks 993, 993A, 994, 994A",
+      "kind": "hdb",
+      "area": "Jurong West",
+      "address": "Blocks 993, 993A, 994, 994A, Jurong West Street 93, Singapore",
+      "lat": 1.3364084,
+      "lng": 103.6933358,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Pioneer MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3373446,
+          "lng": 103.6971554,
+          "walk_min": 6,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-bde6d495cec8",
+      "name": "Yung Ho Walk · blocks 133, 134, 134A, 134B, 135 and nearby blocks",
+      "kind": "hdb",
+      "area": "Jurong West",
+      "address": "Blocks 133, 134, 134A, 134B, 135 and nearby blocks, Yung Ho Walk, Singapore",
+      "lat": 1.3269239,
+      "lng": 103.7278846,
+      "crew": "large",
+      "crew_note": "Estimate from 9 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-9172b4c3a625",
+      "name": "Crawford Street · blocks 20, 20A, 21",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 20, 20A, 21, Crawford Street, Singapore",
+      "lat": 1.3052445,
+      "lng": 103.8647319,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "North Bridge Road Market",
+          "type": "hawker",
+          "lat": 1.3056343,
+          "lng": 103.8639093,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Golden Mile Food Centre",
+          "type": "hawker",
+          "lat": 1.3031418,
+          "lng": 103.8638776,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Lavender MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3071695,
+          "lng": 103.8630431,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-86ccc20bfbeb",
+      "name": "Farrer Park Road · blocks 16, 16A, 16B, 16C, 16D and nearby blocks",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 16, 16A, 16B, 16C, 16D and nearby blocks, Farrer Park Road, Singapore",
+      "lat": 1.3107923,
+      "lng": 103.8505466,
+      "crew": "large",
+      "crew_note": "Estimate from 13 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Farrer Park MRT Station Exit E",
+          "type": "mrt",
+          "lat": 1.3118835,
+          "lng": 103.852651,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Little India MRT Station Exit E",
+          "type": "mrt",
+          "lat": 1.3074264,
+          "lng": 103.8503222,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Buffalo Road Blk 665 (Tekka Centre/Zhu Jiao Market)",
+          "type": "hawker",
+          "lat": 1.3061866,
+          "lng": 103.8505856,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-0a5131d2e070",
+      "name": "Kallang Airport Way · blocks 116, 116A, 116B, 117, 117A and nearby blocks",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 116, 116A, 116B, 117, 117A and nearby blocks, Kallang Airport Way, Singapore",
+      "lat": 1.3101106,
+      "lng": 103.8743109,
+      "crew": "large",
+      "crew_note": "Estimate from 9 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Kallang MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3115405,
+          "lng": 103.8717306,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Upper Boon Keng Road Blk 17 (Blk 17 Upper Boon Keng Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3150284,
+          "lng": 103.8716204,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Stadium MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3033702,
+          "lng": 103.8762262,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-22cdccd096d4",
+      "name": "Kampong Arang Road · blocks 26, 26A, 26B, 27, 28 and nearby blocks",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 26, 26A, 26B, 27, 28 and nearby blocks, Kampong Arang Road, Singapore",
+      "lat": 1.2986318,
+      "lng": 103.8795053,
+      "crew": "large",
+      "crew_note": "Estimate from 11 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Katong Park MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.2983797,
+          "lng": 103.8850692,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Stadium MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3033702,
+          "lng": 103.8762262,
+          "walk_min": 9,
+          "source": "data"
+        },
+        {
+          "name": "Jalan Batu Blk 4A (Blk 4A Jalan Batu Hawker Centre/Market)",
+          "type": "hawker",
+          "lat": 1.3023603,
+          "lng": 103.8839095,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-6f37a4382985",
+      "name": "Kelantan Road · blocks 36, 36A, 36B, 36C",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 36, 36A, 36B, 36C, Kelantan Road, Singapore",
+      "lat": 1.3051811,
+      "lng": 103.8561794,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jalan Besar MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3048899,
+          "lng": 103.8552961,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Berseh Food Centre",
+          "type": "hawker",
+          "lat": 1.3073441,
+          "lng": 103.8568888,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Rochor MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3042148,
+          "lng": 103.8531043,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-5b9dd0fa3a17",
+      "name": "King George'S Avenue · blocks 818, 818A, 819",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 818, 818A, 819, King George'S Avenue, Singapore",
+      "lat": 1.3068666,
+      "lng": 103.859527,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Berseh Food Centre",
+          "type": "hawker",
+          "lat": 1.3073441,
+          "lng": 103.8568888,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Lavender MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3076185,
+          "lng": 103.8626503,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Jalan Besar MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3054673,
+          "lng": 103.8552446,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-1faee35a21aa",
+      "name": "May Road · blocks 118, 118A",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 118, 118A, May Road, Singapore",
+      "lat": 1.3225859,
+      "lng": 103.8582112,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Whampoa Drive Blk 90 (Whampoa Drive Makan Place/Whampoa Food Centre)",
+          "type": "hawker",
+          "lat": 1.3230649,
+          "lng": 103.8549962,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Boon Keng MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3201069,
+          "lng": 103.8615024,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Whampoa Drive Blk 91/92 (Whampoa Drive Makan Place/Whampoa Market)",
+          "type": "hawker",
+          "lat": 1.3234282,
+          "lng": 103.8540602,
+          "walk_min": 6,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-b95635b8f53a",
+      "name": "Owen Road · blocks 55, 55A, 56",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 55, 55A, 56, Owen Road, Singapore",
+      "lat": 1.3172298,
+      "lng": 103.8505285,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Cambridge Road Blk 41A (Pek Kio Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3161313,
+          "lng": 103.8502329,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Farrer Park MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3124536,
+          "lng": 103.8529746,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Whampoa Drive Blk 91/92 (Whampoa Drive Makan Place/Whampoa Market)",
+          "type": "hawker",
+          "lat": 1.3234282,
+          "lng": 103.8540602,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-29350feb2266",
+      "name": "Sampan Place · blocks 24, 24A, 24B, 24C, 25 and nearby blocks",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 24, 24A, 24B, 24C, 25 and nearby blocks, Sampan Place, Singapore",
+      "lat": 1.3003336,
+      "lng": 103.881078,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jalan Batu Blk 4A (Blk 4A Jalan Batu Hawker Centre/Market)",
+          "type": "hawker",
+          "lat": 1.3023603,
+          "lng": 103.8839095,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Katong Park MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.2983797,
+          "lng": 103.8850692,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Stadium MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3033702,
+          "lng": 103.8762262,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-571832df0acf",
+      "name": "Tanjong Rhu Close · blocks 31, 31A, 31B, 32, 32A and nearby blocks",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 31, 31A, 31B, 32, 32A and nearby blocks, Tanjong Rhu Close, Singapore",
+      "lat": 1.2966591,
+      "lng": 103.8783424,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tanjong Rhu MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.2964595,
+          "lng": 103.8734779,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Katong Park MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.2983797,
+          "lng": 103.8850692,
+          "walk_min": 10,
+          "source": "data"
+        },
+        {
+          "name": "Stadium MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3033702,
+          "lng": 103.8762262,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-c33534303c37",
+      "name": "Towner Road · blocks 152A, 153, 153A",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 152A, 153, 153A, Towner Road, Singapore",
+      "lat": 1.32067,
+      "lng": 103.856682,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Whampoa Drive Blk 90 (Whampoa Drive Makan Place/Whampoa Food Centre)",
+          "type": "hawker",
+          "lat": 1.3230649,
+          "lng": 103.8549962,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Whampoa Drive Blk 91/92 (Whampoa Drive Makan Place/Whampoa Market)",
+          "type": "hawker",
+          "lat": 1.3234282,
+          "lng": 103.8540602,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Boon Keng MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3201069,
+          "lng": 103.8615024,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-68a4cb9e0147",
+      "name": "Upper Boon Keng Road · blocks 35, 36, 36A, 37, 37A and nearby blocks",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 35, 36, 36A, 37, 37A and nearby blocks, Upper Boon Keng Road, Singapore",
+      "lat": 1.3177044,
+      "lng": 103.8736643,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Upper Boon Keng Road Blk 17 (Blk 17 Upper Boon Keng Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3150284,
+          "lng": 103.8716204,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Geylang Bahru MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3211091,
+          "lng": 103.8717943,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Geylang Bahru Blk 69 (Blk 69 Geylang Bahru Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3214631,
+          "lng": 103.870005,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-94a1f8205b6f",
+      "name": "Weld Road · blocks 37, 37A, 37B, 37C",
+      "kind": "hdb",
+      "area": "Kallang",
+      "address": "Blocks 37, 37A, 37B, 37C, Weld Road, Singapore",
+      "lat": 1.3042196,
+      "lng": 103.8553572,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Jalan Besar MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3048899,
+          "lng": 103.8552961,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Rochor MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3042148,
+          "lng": 103.8531043,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Bugis MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3012041,
+          "lng": 103.8559241,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "singtel-comcentre-redevelopment",
+      "name": "Singtel Comcentre redevelopment",
+      "kind": "commercial",
+      "area": "Orchard",
+      "address": "112b Killiney Road, Singapore",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/singtel-comcentre-redevelopment/",
+      "last_checked": "2026-11-05",
+      "lat": 1.2986222,
+      "lng": 103.838094,
+      "meet": [
+        {
+          "name": "Somerset MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3000285,
+          "lng": 103.8383993,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Great World MRT Station Exit 5",
+          "type": "mrt",
+          "lat": 1.2965526,
+          "lng": 103.8334055,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Dhoby Ghaut MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.2996492,
+          "lng": 103.8447479,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "tanglin-shopping-centre-redevelopment",
+      "name": "Tanglin Shopping Centre Redevelopment",
+      "kind": "commercial",
+      "area": "Orchard",
+      "address": "19 Tanglin Road, Singapore 247909",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/tanglin-shopping-centre-redevelopment/",
+      "last_checked": "2026-11-05",
+      "lat": 1.30613,
+      "lng": 103.82716,
+      "meet": [
+        {
+          "name": "Orchard MRT Station Exit 11",
+          "type": "mrt",
+          "lat": 1.304218,
+          "lng": 103.8304967,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Orchard Boulevard MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.303624,
+          "lng": 103.8236379,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Napier MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.306345,
+          "lng": 103.8195066,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "contract-crl106-loyang-station",
+      "name": "Contract CRL106 Loyang Station",
+      "kind": "rail",
+      "area": "Pasir Ris",
+      "address": "Loyang Avenue",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2030",
+      "source": "https://www.wohhup.com/project/contract-crl106-loyang-station/",
+      "last_checked": "2026-11-05",
+      "lat": 1.3737391,
+      "lng": 103.9746186,
+      "meet": []
+    },
+    {
+      "id": "crl-pasir-ris",
+      "name": "Cross Island Line Pasir Ris interchange",
+      "kind": "rail",
+      "area": "Pasir Ris",
+      "address": "Pasir Ris MRT Station",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2030",
+      "source": "https://www.lta.gov.sg/content/ltagov/en/upcoming_projects/rail_expansion/cross_island_line.html",
+      "last_checked": "2026-11-05",
+      "lat": 1.3730433,
+      "lng": 103.9492845,
+      "meet": [
+        {
+          "name": "Pasir Ris MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.372842,
+          "lng": 103.9493334,
+          "walk_min": 1,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-b1ae1d538a21",
+      "name": "Pasir Ris Drive 3 · blocks 593, 593A, 593B, 593C, 594 and nearby blocks",
+      "kind": "hdb",
+      "area": "Pasir Ris",
+      "address": "Blocks 593, 593A, 593B, 593C, 594 and nearby blocks, Pasir Ris Drive 3, Singapore",
+      "lat": 1.3756105,
+      "lng": 103.9513371,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Pasir Ris MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.372842,
+          "lng": 103.9493334,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-e97d92e385e2",
+      "name": "Pasir Ris Drive 6 · blocks 426A",
+      "kind": "hdb",
+      "area": "Pasir Ris",
+      "address": "Blocks 426A, Pasir Ris Drive 6, Singapore",
+      "lat": 1.3701295,
+      "lng": 103.955787,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Pasir Ris MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.372842,
+          "lng": 103.9493334,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-02e7bc88238c",
+      "name": "Pasir Ris Green · blocks 591, 591A, 591B, 592, 592A and nearby blocks",
+      "kind": "hdb",
+      "area": "Pasir Ris",
+      "address": "Blocks 591, 591A, 591B, 592, 592A and nearby blocks, Pasir Ris Green, Singapore",
+      "lat": 1.3759988,
+      "lng": 103.9494555,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Pasir Ris MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3728862,
+          "lng": 103.9491369,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "sunview-drive-substation",
+      "name": "Sunview Drive Substation",
+      "kind": "infra",
+      "area": "Pioneer",
+      "address": "Sunview Drive, Singapore",
+      "crew": "small",
+      "crew_note": "Estimate: small landed development or substation, fewer than 30 workers; not a measured headcount.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/sunview-drive-substation/",
+      "last_checked": "2026-11-05",
+      "lat": 1.3152987,
+      "lng": 103.7020652,
+      "meet": []
+    },
+    {
+      "id": "p105-punggol-interchange-station",
+      "name": "Cross Island Line Punggol interchange",
+      "kind": "rail",
+      "area": "Punggol",
+      "address": "Punggol Central, Punggol MRT/LRT Station (NE17/PTC), Singapore",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2032",
+      "source": "https://www.wohhup.com/project/p105-punggol-interchange-station/",
+      "last_checked": "2026-11-05",
+      "lat": 1.4051095,
+      "lng": 103.9023596,
+      "meet": [
+        {
+          "name": "Punggol MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.4053396,
+          "lng": 103.902306,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Punggol LRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.4043006,
+          "lng": 103.9021156,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Sumang LRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.4084879,
+          "lng": 103.8987571,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-0a0d6a06b097",
+      "name": "Commonwealth Avenue West · blocks 61, 63, 64, 64A, 65 and nearby blocks",
+      "kind": "hdb",
+      "area": "Queenstown",
+      "address": "Blocks 61, 63, 64, 64A, 65 and nearby blocks, Commonwealth Avenue West, Singapore",
+      "lat": 1.3121665,
+      "lng": 103.7788601,
+      "crew": "large",
+      "crew_note": "Estimate from 8 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Dover MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3116932,
+          "lng": 103.7784648,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Clementi Ave 2 Blk 353 (Clementi Ave 2 Market/Cooked Food Centre)",
+          "type": "hawker",
+          "lat": 1.3143733,
+          "lng": 103.7708055,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-ba7b8b9d21c9",
+      "name": "Commonwealth Drive · blocks 74, 74A, 74B, 75, 75A and nearby blocks",
+      "kind": "hdb",
+      "area": "Queenstown",
+      "address": "Blocks 74, 74A, 74B, 75, 75A and nearby blocks, Commonwealth Drive, Singapore",
+      "lat": 1.3009898,
+      "lng": 103.7958684,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tanglin Halt Market",
+          "type": "hawker",
+          "lat": 1.3005441,
+          "lng": 103.797738,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Commonwealth MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3026482,
+          "lng": 103.7979583,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Buona Vista MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3062981,
+          "lng": 103.7909301,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-73b9e735759f",
+      "name": "Ghim Moh Close · blocks 48, 48A, 48B, 49, 49A and nearby blocks",
+      "kind": "hdb",
+      "area": "Queenstown",
+      "address": "Blocks 48, 48A, 48B, 49, 49A and nearby blocks, Ghim Moh Close, Singapore",
+      "lat": 1.3105064,
+      "lng": 103.7901123,
+      "crew": "large",
+      "crew_note": "Estimate from 11 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Ghim Moh Road Blk 20",
+          "type": "hawker",
+          "lat": 1.3109966,
+          "lng": 103.7882303,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Buona Vista MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3073095,
+          "lng": 103.7904492,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Holland Drive Blk 44 (Holland Drive Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3081178,
+          "lng": 103.7927738,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-2217ccb45153",
+      "name": "Ghim Moh Link · blocks 51, 52",
+      "kind": "hdb",
+      "area": "Queenstown",
+      "address": "Blocks 51, 52, Ghim Moh Link, Singapore",
+      "lat": 1.3091887,
+      "lng": 103.7900603,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Buona Vista MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3073095,
+          "lng": 103.7904492,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Ghim Moh Road Blk 20",
+          "type": "hawker",
+          "lat": 1.3109966,
+          "lng": 103.7882303,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Holland Drive Blk 44 (Holland Drive Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3081178,
+          "lng": 103.7927738,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-cbae02aa707a",
+      "name": "Holland Village Way · blocks 67, 68, 68A",
+      "kind": "hdb",
+      "area": "Queenstown",
+      "address": "Blocks 67, 68, 68A, Holland Village Way, Singapore",
+      "lat": 1.3106002,
+      "lng": 103.7933992,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Holland Village Market and Food Centre",
+          "type": "hawker",
+          "lat": 1.311073,
+          "lng": 103.7948764,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Holland Village MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3107112,
+          "lng": 103.7957538,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Holland Drive Blk 44 (Holland Drive Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3081178,
+          "lng": 103.7927738,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-fa66c9dc741f",
+      "name": "Mei Chin Road · blocks 185, 186, 186A, 186B, 187 and nearby blocks",
+      "kind": "hdb",
+      "area": "Queenstown",
+      "address": "Blocks 185, 186, 186A, 186B, 187 and nearby blocks, Mei Chin Road, Singapore",
+      "lat": 1.2928537,
+      "lng": 103.8016361,
+      "crew": "large",
+      "crew_note": "Estimate from 8 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Mei Chin Road Blk 159 (Mei Chin Road Market)",
+          "type": "hawker",
+          "lat": 1.2932362,
+          "lng": 103.8029039,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Queenstown MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.2953829,
+          "lng": 103.8054922,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Bukit Merah Lane 1 Blk 120 (Alexandra Village Food Centre)",
+          "type": "hawker",
+          "lat": 1.2863059,
+          "lng": 103.8044926,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-aad06c0acf51",
+      "name": "Queen'S Crescent · blocks 200, 200A, 200B, 201, 202 and nearby blocks",
+      "kind": "hdb",
+      "area": "Queenstown",
+      "address": "Blocks 200, 200A, 200B, 201, 202 and nearby blocks, Queen'S Crescent, Singapore",
+      "lat": 1.2899958,
+      "lng": 103.8002385,
+      "crew": "large",
+      "crew_note": "Estimate from 15 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Mei Chin Road Blk 159 (Mei Chin Road Market)",
+          "type": "hawker",
+          "lat": 1.2932362,
+          "lng": 103.8029039,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Bukit Merah Lane 1 Blk 120 (Alexandra Village Food Centre)",
+          "type": "hawker",
+          "lat": 1.2863059,
+          "lng": 103.8044926,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Queenstown MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.2942473,
+          "lng": 103.8061828,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "skye-at-holland",
+      "name": "Skye at Holland",
+      "kind": "condo",
+      "area": "Queenstown",
+      "address": "Holland Drive, Skye at Holland, Singapore",
+      "crew": "medium",
+      "crew_note": "Estimate: condominium-scale project, 30-150 workers; actual staffing varies by construction phase.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/skye-at-holland/",
+      "last_checked": "2026-11-05",
+      "lat": 1.3121645,
+      "lng": 103.7926897,
+      "meet": [
+        {
+          "name": "Holland Village Market and Food Centre",
+          "type": "hawker",
+          "lat": 1.311073,
+          "lng": 103.7948764,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Holland Village MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3110695,
+          "lng": 103.7957691,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Holland Drive Blk 44 (Holland Drive Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3081178,
+          "lng": 103.7927738,
+          "walk_min": 6,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-252aaa71f058",
+      "name": "Tanglin Halt Road · blocks 17A, 18",
+      "kind": "hdb",
+      "area": "Queenstown",
+      "address": "Blocks 17A, 18, Tanglin Halt Road, Singapore",
+      "lat": 1.2998377,
+      "lng": 103.7981614,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tanglin Halt Market",
+          "type": "hawker",
+          "lat": 1.3005441,
+          "lng": 103.797738,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Commonwealth MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3020127,
+          "lng": 103.7987203,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Commonwealth Crescent Market",
+          "type": "hawker",
+          "lat": 1.3069001,
+          "lng": 103.8003673,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-6ee4762fb716",
+      "name": "Admiralty Lane · blocks 426, 426A, 426B, 427, 427A and nearby blocks",
+      "kind": "hdb",
+      "area": "Sembawang",
+      "address": "Blocks 426, 426A, 426B, 427, 427A and nearby blocks, Admiralty Lane, Singapore",
+      "lat": 1.4569249,
+      "lng": 103.8186061,
+      "crew": "large",
+      "crew_note": "Estimate from 13 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Sembawang MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.4491568,
+          "lng": 103.819759,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-778add59a428",
+      "name": "Admiralty Lane · blocks 433, 433A, 433B, 434, 434A and nearby blocks",
+      "kind": "hdb",
+      "area": "Sembawang",
+      "address": "Blocks 433, 433A, 433B, 434, 434A and nearby blocks, Admiralty Lane, Singapore",
+      "lat": 1.4595811,
+      "lng": 103.8140597,
+      "crew": "large",
+      "crew_note": "Estimate from 17 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-a8091bf7ff86",
+      "name": "Admiralty Lane · blocks 437",
+      "kind": "hdb",
+      "area": "Sembawang",
+      "address": "Blocks 437, Admiralty Lane, Singapore",
+      "lat": 1.4599292,
+      "lng": 103.8115309,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-aba9bd881bb4",
+      "name": "Admiralty Lane · blocks 443A, 444, 445B",
+      "kind": "hdb",
+      "area": "Sembawang",
+      "address": "Blocks 443A, 444, 445B, Admiralty Lane, Singapore",
+      "lat": 1.4597615,
+      "lng": 103.8166223,
+      "crew": "medium",
+      "crew_note": "Estimate from 3 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-56763b66729c",
+      "name": "Fernvale Drive · blocks 480, 480A, 481, 481B, 482 and nearby blocks",
+      "kind": "hdb",
+      "area": "Sengkang",
+      "address": "Blocks 480, 480A, 481, 481B, 482 and nearby blocks, Fernvale Drive, Singapore",
+      "lat": 1.3994985,
+      "lng": 103.8801532,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Kupang LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3982842,
+          "lng": 103.8811392,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Thanggam LRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3971925,
+          "lng": 103.8756868,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Layar LRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3921445,
+          "lng": 103.8801428,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-6307dcb372e7",
+      "name": "Fernvale Drive · blocks 483, 484, 484A, 484B, 485 and nearby blocks",
+      "kind": "hdb",
+      "area": "Sengkang",
+      "address": "Blocks 483, 484, 484A, 484B, 485 and nearby blocks, Fernvale Drive, Singapore",
+      "lat": 1.3996004,
+      "lng": 103.8767214,
+      "crew": "large",
+      "crew_note": "Estimate from 8 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Thanggam LRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3971925,
+          "lng": 103.8756868,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Kupang LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3982842,
+          "lng": 103.8811392,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Fernvale LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3921583,
+          "lng": 103.8762617,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-bc2c8b14299a",
+      "name": "Fernvale Link · blocks 419, 419A, 419B, 419C, 419D",
+      "kind": "hdb",
+      "area": "Sengkang",
+      "address": "Blocks 419, 419A, 419B, 419C, 419D, Fernvale Link, Singapore",
+      "lat": 1.3937084,
+      "lng": 103.879728,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Layar LRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3921445,
+          "lng": 103.8801428,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Fernvale LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3921583,
+          "lng": 103.8762617,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Kupang LRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3981588,
+          "lng": 103.8811379,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-6a0e2e73bd44",
+      "name": "Sumang Lane · blocks 236, 236A, 236B, 237, 237A and nearby blocks",
+      "kind": "hdb",
+      "area": "Sengkang",
+      "address": "Blocks 236, 236A, 236B, 237, 237A and nearby blocks, Sumang Lane, Singapore",
+      "lat": 1.4022411,
+      "lng": 103.8888208,
+      "crew": "large",
+      "crew_note": "Estimate from 11 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Farmway LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3972003,
+          "lng": 103.8894074,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Cheng Lim LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3963732,
+          "lng": 103.8936849,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Kupang LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3982842,
+          "lng": 103.8811392,
+          "walk_min": 13,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-313079340114",
+      "name": "Mount Vernon Road · blocks 223",
+      "kind": "hdb",
+      "area": "Serangoon",
+      "address": "Blocks 223, Mount Vernon Road, Singapore",
+      "lat": 1.3404714,
+      "lng": 103.8783191,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bartley MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3422487,
+          "lng": 103.8802559,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Woodleigh MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3398672,
+          "lng": 103.8710538,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-e550077961f3",
+      "name": "Serangoon North Avenue 1 · blocks 128, 128A, 128B, 129, 129A and nearby blocks",
+      "kind": "hdb",
+      "area": "Serangoon",
+      "address": "Blocks 128, 128A, 128B, 129, 129A and nearby blocks, Serangoon North Avenue 1, Singapore",
+      "lat": 1.3649571,
+      "lng": 103.8731421,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Chomp Chomp Food Centre",
+          "type": "hawker",
+          "lat": 1.3642325,
+          "lng": 103.866527,
+          "walk_min": 10,
+          "source": "data"
+        },
+        {
+          "name": "Serangoon Garden Market",
+          "type": "hawker",
+          "lat": 1.363085,
+          "lng": 103.8667249,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-85cfaba95589",
+      "name": "Serangoon North Avenue 2 · blocks 135A",
+      "kind": "hdb",
+      "area": "Serangoon",
+      "address": "Blocks 135A, Serangoon North Avenue 2, Singapore",
+      "lat": 1.3674412,
+      "lng": 103.8752146,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-651575de6c2f",
+      "name": "Woodleigh Link · blocks 202C",
+      "kind": "hdb",
+      "area": "Serangoon",
+      "address": "Blocks 202C, Woodleigh Link, Singapore",
+      "lat": 1.3398264,
+      "lng": 103.8719339,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Woodleigh MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3398672,
+          "lng": 103.8710538,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Potong Pasir MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3328014,
+          "lng": 103.8689664,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Bartley MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3435011,
+          "lng": 103.8789087,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "union-square-residences",
+      "name": "Union Square",
+      "kind": "commercial",
+      "area": "Singapore River",
+      "address": "1 Magazine Road, Singapore",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/union-square-residences/",
+      "last_checked": "2026-11-05",
+      "lat": 1.2884285,
+      "lng": 103.8423003,
+      "meet": [
+        {
+          "name": "Jalan Kukoh Blk 1 (Kukoh 21 Food Centre)",
+          "type": "hawker",
+          "lat": 1.288231,
+          "lng": 103.8399342,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Chinatown MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.2854065,
+          "lng": 103.8434762,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "New Market Road Blk 32 (People's Park Food Centre)",
+          "type": "hawker",
+          "lat": 1.2848586,
+          "lng": 103.8425788,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "contract-992-de1",
+      "name": "Downtown Line 2 extension DE1 station",
+      "kind": "rail",
+      "area": "Sungei Kadut",
+      "address": "Sungei Kadut Avenue, Singapore",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2035",
+      "source": "https://www.wohhup.com/project/contract-992-de1/",
+      "last_checked": "2026-11-05",
+      "lat": 1.4034528,
+      "lng": 103.7547032,
+      "meet": []
+    },
+    {
+      "id": "contract-991",
+      "name": "Downtown Line 2 extension tunnels (Contract 991)",
+      "kind": "rail",
+      "area": "Sungei Kadut",
+      "address": "Jalan Gali Batu, Gali Batu Bus Depot, Singapore",
+      "crew": "large",
+      "crew_note": "Estimate: major building or MRT station works, 150-500 workers; not a measured headcount.",
+      "est_completion": "2035",
+      "source": "https://www.wohhup.com/project/contract-991/",
+      "last_checked": "2026-11-05",
+      "lat": 1.391047,
+      "lng": 103.7570301,
+      "meet": [
+        {
+          "name": "Jelapang LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3868327,
+          "lng": 103.7646768,
+          "walk_min": 13,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-85d6a6775c83",
+      "name": "Simei Road · blocks 169, 169A, 169B, 170, 170A and nearby blocks",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 169, 169A, 169B, 170, 170A and nearby blocks, Simei Road, Singapore",
+      "lat": 1.3409529,
+      "lng": 103.9600231,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Upper Changi MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3408405,
+          "lng": 103.9610431,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Expo MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.335951,
+          "lng": 103.962161,
+          "walk_min": 8,
+          "source": "data"
+        },
+        {
+          "name": "Simei MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3426618,
+          "lng": 103.9538187,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-aa53d7a2ec65",
+      "name": "Simei Street 4 · blocks 229A",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 229A, Simei Street 4, Singapore",
+      "lat": 1.3435153,
+      "lng": 103.9565184,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Simei MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3426618,
+          "lng": 103.9538187,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Upper Changi MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3420065,
+          "lng": 103.9609606,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-ea733084ad34",
+      "name": "Tampines Avenue 5 · blocks 147A",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 147A, Tampines Avenue 5, Singapore",
+      "lat": 1.3499641,
+      "lng": 103.9426069,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tampines MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3533983,
+          "lng": 103.944904,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Tampines Street 11 Blk 137 (Tampines Round Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3453735,
+          "lng": 103.9446294,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Tampines West MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3449992,
+          "lng": 103.9389485,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-dfb68fd1ccae",
+      "name": "Tampines Central 8 · blocks 525, 525A, 526, 526A",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 525, 525A, 526, 526A, Tampines Central 8, Singapore",
+      "lat": 1.356301,
+      "lng": 103.9409481,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tampines MRT Station Exit E",
+          "type": "mrt",
+          "lat": 1.3558534,
+          "lng": 103.9426588,
+          "walk_min": 3,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-d666c88a5830",
+      "name": "Tampines Road · blocks 215, 216",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 215, 216, Tampines Road, Singapore",
+      "lat": 1.3601859,
+      "lng": 103.8863826,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Kovan MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.360028,
+          "lng": 103.8854506,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Hougang Street 21 Blk 209 (Kovan Hougang Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3590838,
+          "lng": 103.8860554,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Hougang Ave 1 Blk 105 (Hougang 105 Hainanese Village Centre)",
+          "type": "hawker",
+          "lat": 1.3540827,
+          "lng": 103.8901304,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-bd85e1b143f4",
+      "name": "Tampines Street 94 · blocks 973, 973A, 973B, 974, 974A and nearby blocks",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 973, 973A, 973B, 974, 974A and nearby blocks, Tampines Street 94, Singapore",
+      "lat": 1.3437555,
+      "lng": 103.9402031,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tampines West MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3449992,
+          "lng": 103.9389485,
+          "walk_min": 3,
+          "source": "data"
+        },
+        {
+          "name": "Tampines Street 11 Blk 137 (Tampines Round Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3453735,
+          "lng": 103.9446294,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-7d582fa3bbd5",
+      "name": "Tampines Street 96 · blocks 957",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 957, Tampines Street 96, Singapore",
+      "lat": 1.3416781,
+      "lng": 103.9357479,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tampines West MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3449992,
+          "lng": 103.9389485,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Bedok Reservoir MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3365549,
+          "lng": 103.9334872,
+          "walk_min": 8,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-49f39598f759",
+      "name": "Tampines Street 96 · blocks 961, 962",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 961, 962, Tampines Street 96, Singapore",
+      "lat": 1.339459,
+      "lng": 103.9372367,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bedok Reservoir MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3365549,
+          "lng": 103.9334872,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Tampines West MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3449992,
+          "lng": 103.9389485,
+          "walk_min": 9,
+          "source": "data"
+        },
+        {
+          "name": "Bedok North Street 4 Blk 85 (85 Fengshan Centre)",
+          "type": "hawker",
+          "lat": 1.3320048,
+          "lng": 103.9387684,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-140d8b0bb252",
+      "name": "Tampines Street 96 · blocks 967",
+      "kind": "hdb",
+      "area": "Tampines",
+      "address": "Blocks 967, Tampines Street 96, Singapore",
+      "lat": 1.3409477,
+      "lng": 103.9395471,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Tampines West MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3449992,
+          "lng": 103.9389485,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Tampines Street 11 Blk 137 (Tampines Round Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3453735,
+          "lng": 103.9446294,
+          "walk_min": 10,
+          "source": "data"
+        },
+        {
+          "name": "Bedok Reservoir MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3365549,
+          "lng": 103.9334872,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-569d9b68cd15",
+      "name": "Brickland Crescent · blocks 411, 411A, 411B, 412, 412A and nearby blocks",
+      "kind": "hdb",
+      "area": "Tengah",
+      "address": "Blocks 411, 411A, 411B, 412, 412A and nearby blocks, Brickland Crescent, Singapore",
+      "lat": 1.3706545,
+      "lng": 103.7444484,
+      "crew": "large",
+      "crew_note": "Estimate from 10 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-754f3bb6ddeb",
+      "name": "Brickland Lane · blocks 415, 415A, 415B, 415C, 416 and nearby blocks",
+      "kind": "hdb",
+      "area": "Tengah",
+      "address": "Blocks 415, 415A, 415B, 415C, 416 and nearby blocks, Brickland Lane, Singapore",
+      "lat": 1.3713736,
+      "lng": 103.742416,
+      "crew": "large",
+      "crew_note": "Estimate from 8 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-95d7d3e99d17",
+      "name": "Tengah Garden Avenue · blocks 134, 137",
+      "kind": "hdb",
+      "area": "Tengah",
+      "address": "Blocks 134, 137, Tengah Garden Avenue, Singapore",
+      "lat": 1.3547144,
+      "lng": 103.7300464,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-d85909bc0bc2",
+      "name": "Tengah Garden Avenue · blocks 209, 209A, 210, 210A, 210B and nearby blocks",
+      "kind": "hdb",
+      "area": "Tengah",
+      "address": "Blocks 209, 209A, 210, 210A, 210B and nearby blocks, Tengah Garden Avenue, Singapore",
+      "lat": 1.3572407,
+      "lng": 103.7274211,
+      "crew": "large",
+      "crew_note": "Estimate from 17 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-a977aad04085",
+      "name": "Tengah Park Avenue · blocks 326, 326A, 326B, 326C, 327 and nearby blocks",
+      "kind": "hdb",
+      "area": "Tengah",
+      "address": "Blocks 326, 326A, 326B, 326C, 327 and nearby blocks, Tengah Park Avenue, Singapore",
+      "lat": 1.3660022,
+      "lng": 103.735523,
+      "crew": "large",
+      "crew_note": "Estimate from 21 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-07ab3d18531e",
+      "name": "Bidadari Park Drive · blocks 203",
+      "kind": "hdb",
+      "area": "Toa Payoh",
+      "address": "Blocks 203, Bidadari Park Drive, Singapore",
+      "lat": 1.340102,
+      "lng": 103.8716578,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Woodleigh MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3398672,
+          "lng": 103.8710538,
+          "walk_min": 1,
+          "source": "data"
+        },
+        {
+          "name": "Potong Pasir MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3328014,
+          "lng": 103.8689664,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Bartley MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.3435011,
+          "lng": 103.8789087,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-ecbae79ea1e8",
+      "name": "HDB works near Toa Payoh · blocks 100, 100A, 101, 103",
+      "kind": "hdb",
+      "area": "Toa Payoh",
+      "address": "Blocks 100, 100A, 101, 103, Toa Payoh (street name unconfirmed), Singapore",
+      "lat": 1.3302272,
+      "lng": 103.8381783,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Caldecott MRT Station Exit 4",
+          "type": "mrt",
+          "lat": 1.3367509,
+          "lng": 103.8398824,
+          "walk_min": 10,
+          "source": "data"
+        },
+        {
+          "name": "Toa Payoh MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.3332787,
+          "lng": 103.8465174,
+          "walk_min": 13,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-74a86e648dd0",
+      "name": "HDB works near Toa Payoh · blocks 104, 104A, 105, 105A",
+      "kind": "hdb",
+      "area": "Toa Payoh",
+      "address": "Blocks 104, 104A, 105, 105A, Toa Payoh (street name unconfirmed), Singapore",
+      "lat": 1.329842,
+      "lng": 103.8370728,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Caldecott MRT Station Exit 4",
+          "type": "mrt",
+          "lat": 1.3367509,
+          "lng": 103.8398824,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-0317d576879b",
+      "name": "Jalan Rajah · blocks 125, 125A, 126, 126A, 127 and nearby blocks",
+      "kind": "hdb",
+      "area": "Toa Payoh",
+      "address": "Blocks 125, 125A, 126, 126A, 127 and nearby blocks, Jalan Rajah, Singapore",
+      "lat": 1.3276123,
+      "lng": 103.8533994,
+      "crew": "large",
+      "crew_note": "Estimate from 10 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Whampoa Drive Blk 91/92 (Whampoa Drive Makan Place/Whampoa Market)",
+          "type": "hawker",
+          "lat": 1.3234282,
+          "lng": 103.8540602,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Whampoa Drive Blk 90 (Whampoa Drive Makan Place/Whampoa Food Centre)",
+          "type": "hawker",
+          "lat": 1.3230649,
+          "lng": 103.8549962,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Toa Payoh Lorong 4 Blk 74 (Toa Payoh Vista Market)",
+          "type": "hawker",
+          "lat": 1.3345507,
+          "lng": 103.8520035,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-e7d522ce1a1f",
+      "name": "Jalan Tenteram · blocks 131, 131A, 131B, 132, 132A and nearby blocks",
+      "kind": "hdb",
+      "area": "Toa Payoh",
+      "address": "Blocks 131, 131A, 131B, 132, 132A and nearby blocks, Jalan Tenteram, Singapore",
+      "lat": 1.3289862,
+      "lng": 103.8609177,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Toa Payoh Lorong 7 Blk 22 (Kim Keat Palm Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3353826,
+          "lng": 103.8570037,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Potong Pasir MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3310667,
+          "lng": 103.8687039,
+          "walk_min": 12,
+          "source": "data"
+        },
+        {
+          "name": "Whampoa Drive Blk 90 (Whampoa Drive Makan Place/Whampoa Food Centre)",
+          "type": "hawker",
+          "lat": 1.3230649,
+          "lng": 103.8549962,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-294b924a7ed1",
+      "name": "Lorong 6 Toa Payoh · blocks 39, 39A, 39B, 40",
+      "kind": "hdb",
+      "area": "Toa Payoh",
+      "address": "Blocks 39, 39A, 39B, 40, Lorong 6 Toa Payoh, Singapore",
+      "lat": 1.3380135,
+      "lng": 103.8547986,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Toa Payoh Lorong 8 Blk 210",
+          "type": "hawker",
+          "lat": 1.340261,
+          "lng": 103.8543958,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Toa Payoh Lorong 5 Blk 75",
+          "type": "hawker",
+          "lat": 1.3360208,
+          "lng": 103.852957,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Toa Payoh Lorong 7 Blk 22 (Kim Keat Palm Market and Food Centre)",
+          "type": "hawker",
+          "lat": 1.3353826,
+          "lng": 103.8570037,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "the-orie",
+      "name": "The Orie",
+      "kind": "condo",
+      "area": "Toa Payoh",
+      "address": "Lorong 1 Toa Payoh, Singapore",
+      "crew": "medium",
+      "crew_note": "Estimate: condominium-scale project, 30-150 workers; actual staffing varies by construction phase.",
+      "est_completion": null,
+      "source": "https://www.wohhup.com/project/the-orie/",
+      "last_checked": "2026-11-05",
+      "lat": 1.3397068,
+      "lng": 103.8500573,
+      "meet": [
+        {
+          "name": "Toa Payoh Lorong 4 Blk 93",
+          "type": "hawker",
+          "lat": 1.3384747,
+          "lng": 103.8495134,
+          "walk_min": 2,
+          "source": "data"
+        },
+        {
+          "name": "Braddell MRT Station Exit C",
+          "type": "mrt",
+          "lat": 1.3406722,
+          "lng": 103.8474408,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Toa Payoh Lorong 8 Blk 210",
+          "type": "hawker",
+          "lat": 1.340261,
+          "lng": 103.8543958,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "tuas-port",
+      "name": "Tuas Port expansion",
+      "kind": "infra",
+      "area": "Tuas",
+      "address": "Tuas Port, Singapore",
+      "crew": "mega",
+      "crew_note": "Estimate: very large infrastructure, depot or integrated resort project, 500+ workers across the project; not the number at lunch.",
+      "est_completion": null,
+      "source": "https://www.mpa.gov.sg/maritime-singapore/port-of-the-future",
+      "last_checked": "2026-11-05",
+      "lat": 1.263,
+      "lng": 103.614,
+      "meet": []
+    },
+    {
+      "id": "tuas-wrp",
+      "name": "Tuas Water Reclamation Plant / DTSS2",
+      "kind": "infra",
+      "area": "Tuas",
+      "address": "Tuas View Basin / Tuas South Lane, Singapore",
+      "crew": "mega",
+      "crew_note": "Estimate: very large infrastructure, depot or integrated resort project, 500+ workers across the project; not the number at lunch.",
+      "est_completion": "2027",
+      "source": "https://www.pub.gov.sg/Professionals/Requirements/Used-Water/DTSS/Tuas-Water-Reclamation-Plant",
+      "last_checked": "2026-11-05",
+      "lat": 1.2835008,
+      "lng": 103.6463522,
+      "meet": []
+    },
+    {
+      "id": "hdb-74586b26caa2",
+      "name": "Marsiling Lane · blocks 219, 219A, 220, 220A, 221 and nearby blocks",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 219, 219A, 220, 220A, 221 and nearby blocks, Marsiling Lane, Singapore",
+      "lat": 1.4444146,
+      "lng": 103.7753018,
+      "crew": "large",
+      "crew_note": "Estimate from 11 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Marsiling Lane Blk 20/21",
+          "type": "hawker",
+          "lat": 1.4434162,
+          "lng": 103.7770061,
+          "walk_min": 3,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-3138d10d4ce0",
+      "name": "North Woodlands Drive · blocks 903, 903A, 903B, 904, 904A",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 903, 903A, 903B, 904, 904A, North Woodlands Drive, Singapore",
+      "lat": 1.4369406,
+      "lng": 103.783563,
+      "crew": "large",
+      "crew_note": "Estimate from 5 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Woodlands MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.4366969,
+          "lng": 103.7857356,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "redevelopment-and-extension-of-woodlands-checkpoint",
+      "name": "Redevelopment and Extension of Woodlands Checkpoint",
+      "kind": "infra",
+      "area": "Woodlands",
+      "address": "Woodlands Road, Old Woodlands Checkpoint, Singapore",
+      "crew": "mega",
+      "crew_note": "Estimate: very large infrastructure, depot or integrated resort project, 500+ workers across the project; not the number at lunch.",
+      "est_completion": "2032",
+      "source": "https://www.wohhup.com/project/redevelopment-and-extension-of-woodlands-checkpoint/",
+      "last_checked": "2026-11-05",
+      "lat": 1.4439713,
+      "lng": 103.7704488,
+      "meet": [
+        {
+          "name": "Marsiling Lane Blk 20/21",
+          "type": "hawker",
+          "lat": 1.4434162,
+          "lng": 103.7770061,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ]
+    },
+    {
+      "id": "hdb-3abaf8611fdb",
+      "name": "Woodgrove Avenue · blocks 450, 450A, 450B, 451, 451A and nearby blocks",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 450, 450A, 450B, 451, 451A and nearby blocks, Woodgrove Avenue, Singapore",
+      "lat": 1.4284193,
+      "lng": 103.7844392,
+      "crew": "large",
+      "crew_note": "Estimate from 10 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Woodlands MRT Station Exit 7",
+          "type": "mrt",
+          "lat": 1.4344955,
+          "lng": 103.7879768,
+          "walk_min": 10,
+          "source": "data"
+        },
+        {
+          "name": "Woodlands South MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.427302,
+          "lng": 103.7930275,
+          "walk_min": 13,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-db6b793f26a8",
+      "name": "Woodlands Centre Road · blocks 194, 194A",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 194, 194A, Woodlands Centre Road, Singapore",
+      "lat": 1.4352096,
+      "lng": 103.7730135,
+      "crew": "medium",
+      "crew_note": "Estimate from 2 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Marsiling MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.4327514,
+          "lng": 103.7739971,
+          "walk_min": 4,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-f919c778f8f5",
+      "name": "Woodlands Drive 17 · blocks 590, 590A, 590B, 590C, 591 and nearby blocks",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 590, 590A, 590B, 590C, 591 and nearby blocks, Woodlands Drive 17, Singapore",
+      "lat": 1.4267848,
+      "lng": 103.7958115,
+      "crew": "large",
+      "crew_note": "Estimate from 9 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Woodlands South MRT Station Exit 4",
+          "type": "mrt",
+          "lat": 1.4266842,
+          "lng": 103.7944238,
+          "walk_min": 2,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-ab5710460732",
+      "name": "Woodlands North Link · blocks 912, 912A, 913, 913A, 913B and nearby blocks",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 912, 912A, 913, 913A, 913B and nearby blocks, Woodlands North Link, Singapore",
+      "lat": 1.4489477,
+      "lng": 103.7811249,
+      "crew": "large",
+      "crew_note": "Estimate from 17 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Woodlands North MRT Station Exit 2",
+          "type": "mrt",
+          "lat": 1.4490473,
+          "lng": 103.7851023,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Marsiling Lane Blk 20/21",
+          "type": "hawker",
+          "lat": 1.4434162,
+          "lng": 103.7770061,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-8e10a251fd1c",
+      "name": "Woodlands Road · blocks 28, 28A, 28B, 28C, 29 and nearby blocks",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 28, 28A, 28B, 28C, 29 and nearby blocks, Woodlands Road, Singapore",
+      "lat": 1.383392,
+      "lng": 103.7577671,
+      "crew": "large",
+      "crew_note": "Estimate from 16 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bukit Panjang MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3807451,
+          "lng": 103.7595978,
+          "walk_min": 5,
+          "source": "data"
+        },
+        {
+          "name": "Senja LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3828754,
+          "lng": 103.7623258,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Phoenix LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3786141,
+          "lng": 103.7582525,
+          "walk_min": 7,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-9cff2873ed4d",
+      "name": "Woodlands Road · blocks 32C, 35, 35A, 35B, 35C and nearby blocks",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 32C, 35, 35A, 35B, 35C and nearby blocks, Woodlands Road, Singapore",
+      "lat": 1.3865719,
+      "lng": 103.755413,
+      "crew": "large",
+      "crew_note": "Estimate from 9 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Bukit Panjang MRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3807451,
+          "lng": 103.7595978,
+          "walk_min": 10,
+          "source": "data"
+        },
+        {
+          "name": "Senja LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3828754,
+          "lng": 103.7623258,
+          "walk_min": 11,
+          "source": "data"
+        },
+        {
+          "name": "Phoenix LRT Station Exit A",
+          "type": "mrt",
+          "lat": 1.3786141,
+          "lng": 103.7582525,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-a128103b4750",
+      "name": "Woodlands Square · blocks 908",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 908, Woodlands Square, Singapore",
+      "lat": 1.4394294,
+      "lng": 103.7853077,
+      "crew": "medium",
+      "crew_note": "Estimate from 1 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Woodlands MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.4366969,
+          "lng": 103.7857356,
+          "walk_min": 4,
+          "source": "data"
+        },
+        {
+          "name": "Woodlands North MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.4479365,
+          "lng": 103.7854291,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-d21df24a5a03",
+      "name": "Woodlands Street 13 · blocks 100, 100A, 99, 99A",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 100, 100A, 99, 99A, Woodlands Street 13, Singapore",
+      "lat": 1.4354275,
+      "lng": 103.78227,
+      "crew": "medium",
+      "crew_note": "Estimate from 4 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Woodlands MRT Station Exit 1",
+          "type": "mrt",
+          "lat": 1.4366969,
+          "lng": 103.7857356,
+          "walk_min": 6,
+          "source": "data"
+        },
+        {
+          "name": "Marsiling MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.4327514,
+          "lng": 103.7744105,
+          "walk_min": 12,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-b584edc5bc26",
+      "name": "Woodlands Street 13 · blocks 190, 190A, 191, 191A, 191B and nearby blocks",
+      "kind": "hdb",
+      "area": "Woodlands",
+      "address": "Blocks 190, 190A, 191, 191A, 191B and nearby blocks, Woodlands Street 13, Singapore",
+      "lat": 1.4373086,
+      "lng": 103.772951,
+      "crew": "large",
+      "crew_note": "Estimate from 8 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Marsiling MRT Station Exit D",
+          "type": "mrt",
+          "lat": 1.4327514,
+          "lng": 103.7739971,
+          "walk_min": 7,
+          "source": "data"
+        },
+        {
+          "name": "Marsiling Lane Blk 20/21",
+          "type": "hawker",
+          "lat": 1.4434162,
+          "lng": 103.7770061,
+          "walk_min": 11,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-79d1f9797513",
+      "name": "Bah Soon Pah Road · blocks 962, 962A, 962B, 964, 964A and nearby blocks",
+      "kind": "hdb",
+      "area": "Yishun",
+      "address": "Blocks 962, 962A, 962B, 964, 964A and nearby blocks, Bah Soon Pah Road, Singapore",
+      "lat": 1.419656,
+      "lng": 103.8271248,
+      "crew": "large",
+      "crew_note": "Estimate from 19 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Khatib MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.4171434,
+          "lng": 103.8327067,
+          "walk_min": 9,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-141b7bcdbc01",
+      "name": "Bah Soon Pah Road · blocks 969C, 970, 970A, 970B, 971 and nearby blocks",
+      "kind": "hdb",
+      "area": "Yishun",
+      "address": "Blocks 969C, 970, 970A, 970B, 971 and nearby blocks, Bah Soon Pah Road, Singapore",
+      "lat": 1.4178943,
+      "lng": 103.8294539,
+      "crew": "large",
+      "crew_note": "Estimate from 7 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Khatib MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.4171434,
+          "lng": 103.8327067,
+          "walk_min": 5,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-a8d1259c0ba7",
+      "name": "Lorong Chencharu · blocks 972, 972A, 972B, 972C, 973 and nearby blocks",
+      "kind": "hdb",
+      "area": "Yishun",
+      "address": "Blocks 972, 972A, 972B, 972C, 973 and nearby blocks, Lorong Chencharu, Singapore",
+      "lat": 1.4167032,
+      "lng": 103.8260335,
+      "crew": "large",
+      "crew_note": "Estimate from 13 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [
+        {
+          "name": "Khatib MRT Station Exit B",
+          "type": "mrt",
+          "lat": 1.4171434,
+          "lng": 103.8327067,
+          "walk_min": 10,
+          "source": "data"
+        }
+      ],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-d76d19fc3910",
+      "name": "Miltonia Close · blocks 515, 515A, 516, 516A, 516B and nearby blocks",
+      "kind": "hdb",
+      "area": "Yishun",
+      "address": "Blocks 515, 515A, 516, 516A, 516B and nearby blocks, Miltonia Close, Singapore",
+      "lat": 1.4190068,
+      "lng": 103.8494533,
+      "crew": "large",
+      "crew_note": "Estimate from 15 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-cd59f5c1bec0",
+      "name": "Yishun Street 31 · blocks 340, 340A, 340B, 341, 341A and nearby blocks",
+      "kind": "hdb",
+      "area": "Yishun",
+      "address": "Blocks 340, 340A, 340B, 341, 341A and nearby blocks, Yishun Street 31, Singapore",
+      "lat": 1.4308461,
+      "lng": 103.8459092,
+      "crew": "large",
+      "crew_note": "Estimate from 6 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    },
+    {
+      "id": "hdb-a91c555bf29d",
+      "name": "Yishun Street 53 · blocks 522, 522A, 522B, 522C, 523 and nearby blocks",
+      "kind": "hdb",
+      "area": "Yishun",
+      "address": "Blocks 522, 522A, 522B, 522C, 523 and nearby blocks, Yishun Street 53, Singapore",
+      "lat": 1.4225753,
+      "lng": 103.8523946,
+      "crew": "large",
+      "crew_note": "Estimate from 22 mapped building block(s) in an approximate street/proximity cluster; ancillary buildings may be included. Not a headcount. Town label is approximate.",
+      "est_completion": null,
+      "meet": [],
+      "source": "https://data.gov.sg/datasets/d_e4aaf26891bfe398666f7a96fe81a972/view",
+      "last_checked": "2026-11-05"
+    }
+  ]
+}
